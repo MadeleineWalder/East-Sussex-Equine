@@ -25,6 +25,22 @@ h1, h2 {
     font-size: 280%;
 }
 
-header {
-    background-color: #388E3C;
+/* navigation links */
+
+#menu {
+    font-size: 120%;
+    letter-spacing: 1px;
+}
+
+/* must target li elements not the whole ul for each one to float right correctly */
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
 }
