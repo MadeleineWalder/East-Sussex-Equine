@@ -9,4 +9,22 @@
 body {
     font-family: Open Sans, sans-serif;
     font-weight: 400;
+    color: green;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Noto Sans Japanese, sans-serif;
+    letter-spacing: 1px;
+    color: #F8F9F9;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
+}
+
+header {
+    background-color: #388E3C;
 }
