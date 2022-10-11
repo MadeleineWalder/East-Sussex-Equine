@@ -16,7 +16,7 @@ body {
 /* headings and logo */
 
 h1 {
-    font-family: Noto Sans Japanese, sans-serif;
+    font-family: Open Sans, sans-serif;
     padding-left: 10px;
     letter-spacing: 2px;
     color: #F8F9F9;
@@ -43,9 +43,9 @@ h3 {
 
 #logo {
     float: left;
-    font-size: 310%;
-    padding-left: 10px;
-    letter-spacing: 2px;
+    font-size: 360%;
+    padding-left: 20px;
+    letter-spacing: 4px;
 }
 
 
@@ -54,6 +54,10 @@ h3 {
 #menu {
     font-size: 140%;
     letter-spacing: 1px;
+}
+
+#menu, #logo {
+    line-height: 75px;
 }
 
 #menu li {
