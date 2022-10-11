@@ -24,7 +24,7 @@ h1 {
 
 h2 {
     font-family: Noto Sans Japanese, sans-serif;
-    font-size: 180%;
+    font-size: 190%;
     padding-top: 15px;
     letter-spacing: 2px;
     text-align: center;
@@ -97,11 +97,11 @@ h3 {
     width: 60%;
     float:  right;
     clear: both;
-    line-height: 25px;
+    line-height: 30px;
 }
 
 .left-about-text p {
-    text-align: center;
+    font-size: 110%;
 }
 
 /* center */
@@ -115,7 +115,11 @@ h3 {
 .center-about-text {
     width: 60%;
     margin: 0 auto;
-    line-height: 25px;
+    line-height: 30px;
+}
+
+.center-about-text p {
+    font-size: 110%;
 }
 
 /* right */
@@ -130,7 +134,11 @@ h3 {
     width: 60%;
     float: left;
     clear: both;
-    line-height: 25px;
+    line-height: 30px;
+}
+
+.right-about-text p {
+    font-size: 110%;
 }
 
 /* rides section */
