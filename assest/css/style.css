@@ -12,13 +12,32 @@ body {
     color: #F8F9F9;
 }
 
+
 /* headings and logo */
 
-h1, h2 {
+h1 {
     font-family: Noto Sans Japanese, sans-serif;
     padding-left: 10px;
     letter-spacing: 2px;
     color: #F8F9F9;
+}
+
+h2 {
+    font-family: Noto Sans Japanese, sans-serif;
+    font-size: 180%;
+    padding-top: 15px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-decoration: underline;
+    color: #F8F9F9;
+}
+
+h3 {
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+    font-size: 150%;
+    letter-spacing: 1px;
+    padding: 20px;
 }
 
 #logo {
@@ -28,10 +47,11 @@ h1, h2 {
     letter-spacing: 2px;
 }
 
+
 /* navigation links */
 
 #menu {
-    font-size: 130%;
+    font-size: 140%;
     letter-spacing: 1px;
 }
 
@@ -46,6 +66,7 @@ h1, h2 {
     color: inherit;
 }
 
+
 /* hero image */
 
 #hero-image {
@@ -54,29 +75,50 @@ h1, h2 {
     background: url(../images/pexels-helena-lopes-2050425\ \(13\).jpg) no-repeat center center;
 }
 
+
 /* about section */
 
 #about {
-    height: 600px;
+    height: 700px;
     width: 100%;
     background-color: #3c4027;
+}
+
+#why-ride {
+    padding: 50px;
+    width: 33%;
+    float: left;
+}
+
+#why-us {
+    padding: 50px;
+    width: 33%;
+    margin: 0 auto;
+}
+
+#what-i-need {
+    padding: 50px;
+    width: 33%;
+    float: right;
 }
 
 /* rides section */
 
 #rides {
-    height: 600px;
+    height: 700px;
     width: 100%;
     background-color: #a6a086;
 }
 
+
 /* booking section */
 
 #booking {
-    height: 600px;
+    height: 700px;
     width: 100%;
     background-color: #3c4027;
 }
+
 
 /* footer */
 
