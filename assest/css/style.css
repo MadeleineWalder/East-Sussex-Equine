@@ -9,38 +9,46 @@
 body {
     font-family: Open Sans, sans-serif;
     font-weight: 400;
-    color: green;
+    color: #F8F9F9;
 }
 
 /* headings and logo */
 
 h1, h2 {
     font-family: Noto Sans Japanese, sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     color: #F8F9F9;
 }
 
 #logo {
     float: left;
-    font-size: 280%;
+    font-size: 310%;
+    padding-left: 10px;
+    letter-spacing: 2px;
 }
 
 /* navigation links */
 
 #menu {
-    font-size: 120%;
+    font-size: 130%;
     letter-spacing: 1px;
 }
-
-/* must target li elements not the whole ul for each one to float right correctly */
 
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 50px;
 }
 
 #menu a {
     text-decoration: none;
     color: inherit;
+}
+
+/* hero image */
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/pexels-helena-lopes-2050425\ \(4\).jpg) no-repeat center center;
 }
