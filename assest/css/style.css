@@ -71,6 +71,14 @@ h3 {
     color: inherit;
 }
 
+#menu a:hover {
+    border-bottom: 2px solid #F8F9F9;
+}
+
+.active {
+    border-bottom: 2px solid #F8F9F9;
+}
+
 
 /* hero image */
 
