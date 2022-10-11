@@ -15,6 +15,7 @@ body {
 
 /* headings and logo */
 
+
 h1 {
     font-family: Open Sans, sans-serif;
     padding-left: 10px;
@@ -92,7 +93,7 @@ h3 {
 /* about section */
 
 #about {
-    height: 700px;
+    height: 520px;
     width: 100%;
     background-color: #3c4027;
 }
@@ -158,7 +159,7 @@ h3 {
 #rides {
     height: 700px;
     width: 100%;
-    background-color: #a6a086;
+    background-color: #202916;
 }
 
 
@@ -167,7 +168,7 @@ h3 {
 #booking {
     height: 700px;
     width: 100%;
-    background-color: #3c4027;
+    background-color: #2b2f1f;
 }
 
 
