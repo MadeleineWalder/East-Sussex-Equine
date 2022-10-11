@@ -38,6 +38,7 @@ h3 {
     font-size: 150%;
     letter-spacing: 1px;
     padding: 20px;
+    text-align: center;
 }
 
 #logo {
@@ -84,22 +85,52 @@ h3 {
     background-color: #3c4027;
 }
 
-#why-ride {
+/* left */
+
+#left-about {
     padding: 50px;
     width: 33%;
     float: left;
 }
 
-#why-us {
+.left-about-text {
+    width: 60%;
+    float:  right;
+    clear: both;
+    line-height: 25px;
+}
+
+.left-about-text p {
+    text-align: center;
+}
+
+/* center */
+
+#center-about {
     padding: 50px;
     width: 33%;
     margin: 0 auto;
 }
 
-#what-i-need {
+.center-about-text {
+    width: 60%;
+    margin: 0 auto;
+    line-height: 25px;
+}
+
+/* right */
+
+#right-about {
     padding: 50px;
     width: 33%;
     float: right;
+}
+
+.right-about-text {
+    width: 60%;
+    float: left;
+    clear: both;
+    line-height: 25px;
 }
 
 /* rides section */
