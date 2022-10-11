@@ -154,12 +154,67 @@ h3 {
     font-size: 110%;
 }
 
+
 /* rides section */
 
 #rides {
     height: 1200px;
     width: 100%;
     background-color: #202916;
+}
+
+/* indoor image */
+
+#indoor-ride-photo {
+    padding: 50px;
+    width: 40%;
+    float: left;
+}
+
+/* indoor text */
+
+#indoor-ride {
+    padding: 50px;
+    width: 40%;
+    float: left;
+}
+
+.indoor-ride-text {
+    width: 80%;
+    float: left;
+    clear: both;
+    line-height: 30px;
+}
+
+.indoor-ride-text p {
+    font-size: 110%;
+}
+
+/* outdoor text */
+
+#outdoor-ride {
+    padding: 50px;
+    width: 40%;
+    float: left;
+}
+
+.outdoor-ride-text {
+    width: 80%;
+    float: left;
+    clear: both;
+    line-height: 30px;
+}
+
+.outdoor-ride-text p {
+    font-size: 110%;
+}
+
+/* outdoor image*/
+
+#outdoor-ride-photo {
+    padding: 50px;
+    width: 40%;
+    float: right;
 }
 
 
