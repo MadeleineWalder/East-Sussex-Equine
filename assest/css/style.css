@@ -170,20 +170,20 @@ h3 {
 
 #indoor-ride {
     padding-top: 100px;
-    width: 50%;
+    width: 45%;
     float: left;
 }
 
 .indoor-img {
-    width: 100%;
-    margin-left: 25%;
+    float: right;
+    margin-right: 75px;
 }
 
 .indoor-text {
     width: 70%;
     font-size: 115%;
     line-height: 30px;
-    margin: 0  auto;
+    float: right;
     text-align: center;
     clear: both;
 }
@@ -192,20 +192,20 @@ h3 {
 
 #outdoor-ride {
     padding-top: 100px;
-    width: 50%;
+    width: 45%;
     float: right;
 }
 
 .outdoor-img {
-    width: 100%;
-    margin-left: 25%;
+    float: left;
+    margin-left: 75px;
 }
 
 .outdoor-text {
     width: 70%;
     font-size: 115%;
     line-height: 30px;
-    margin: 0  auto;
+    float: left;
     text-align: center;
     clear: both;
 }
