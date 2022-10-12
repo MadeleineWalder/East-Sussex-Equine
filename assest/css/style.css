@@ -26,7 +26,7 @@ h1 {
 h2 {
     font-family: Noto Sans Japanese, sans-serif;
     font-size: 190%;
-    padding-top: 15px;
+    padding-top: 30px;
     letter-spacing: 2px;
     text-align: center;
     text-decoration: underline;
@@ -38,7 +38,7 @@ h3 {
     font-weight: 400;
     font-size: 150%;
     letter-spacing: 1px;
-    padding: 20px;
+    padding: 40px 20px 20px 20px;
     text-align: center;
 }
 
@@ -93,7 +93,7 @@ h3 {
 /* about section */
 
 #about {
-    height: 520px;
+    height: 550px;
     width: 100%;
     background-color: #3c4027;
 }
@@ -115,6 +115,7 @@ h3 {
 
 .left-about-text p {
     font-size: 110%;
+    text-align: center;
 }
 
 /* center */
@@ -133,6 +134,7 @@ h3 {
 
 .center-about-text p {
     font-size: 110%;
+    text-align: center;
 }
 
 /* right */
@@ -152,13 +154,14 @@ h3 {
 
 .right-about-text p {
     font-size: 110%;
+    text-align: center;
 }
 
 
 /* rides section */
 
 #rides {
-    height: 1200px;
+    height: 1100px;
     width: 100%;
     background-color: #202916;
 }
@@ -166,37 +169,54 @@ h3 {
 /* indoor ride */
 
 #indoor-ride {
+    padding-top: 100px;
     width: 50%;
-    background-color: red;
+    float: left;
 }
 
 .indoor-img {
     width: 100%;
-    padding: 50px;
+    margin-left: 25%;
 }
 
 .indoor-text {
-    width: 100%;
-    font-size: 110%;
-    clear: both;
+    width: 70%;
+    font-size: 115%;
     line-height: 30px;
+    margin: 0  auto;
+    text-align: center;
+    clear: both;
 }
 
 /* outdoor ride */
 
 #outdoor-ride {
+    padding-top: 100px;
     width: 50%;
     float: right;
-    background-color: yellow;
+}
+
+.outdoor-img {
+    width: 100%;
+    margin-left: 25%;
+}
+
+.outdoor-text {
+    width: 70%;
+    font-size: 115%;
+    line-height: 30px;
+    margin: 0  auto;
+    text-align: center;
+    clear: both;
 }
 
 
 /* booking section */
 
 #booking {
-    height: 700px;
+    height: 550px;
     width: 100%;
-    background-color: #2b2f1f;
+    background-color: #3c4027;
 }
 
 
