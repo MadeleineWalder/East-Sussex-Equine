@@ -163,58 +163,31 @@ h3 {
     background-color: #202916;
 }
 
-/* indoor image */
-
-#indoor-ride-photo {
-    padding: 50px;
-    width: 40%;
-    float: left;
-}
-
-/* indoor text */
+/* indoor ride */
 
 #indoor-ride {
-    padding: 50px;
-    width: 40%;
-    float: left;
+    width: 50%;
+    background-color: red;
 }
 
-.indoor-ride-text {
-    width: 80%;
-    float: left;
+.indoor-img {
+    width: 100%;
+    padding: 50px;
+}
+
+.indoor-text {
+    width: 100%;
+    font-size: 110%;
     clear: both;
     line-height: 30px;
 }
 
-.indoor-ride-text p {
-    font-size: 110%;
-}
-
-/* outdoor text */
+/* outdoor ride */
 
 #outdoor-ride {
-    padding: 50px;
-    width: 40%;
-    float: left;
-}
-
-.outdoor-ride-text {
-    width: 80%;
-    float: left;
-    clear: both;
-    line-height: 30px;
-}
-
-.outdoor-ride-text p {
-    font-size: 110%;
-}
-
-/* outdoor image*/
-
-#outdoor-ride-photo {
-    padding: 50px;
-    width: 40%;
+    width: 50%;
     float: right;
+    background-color: yellow;
 }
 
 
