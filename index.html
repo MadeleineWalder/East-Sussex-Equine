@@ -9,7 +9,8 @@
     
     <link rel="stylesheet" href="assest/css/style.css">
     <title>East Sussex Equine</title>
-
+    
+    <!-- Font Awesome script -->
     <script src="https://kit.fontawesome.com/b181badfaf.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -113,32 +114,37 @@
     <section id="booking">
         <h2>Booking</h2>
         <form action="https://formdump.codeinstitute.net" method="POST" class="booking-form">
-            <label for="name">Name</label>
-            <input id="name" type="text">
+            <label for="fname">First Name</label>
+            <input id="fname" type="text" class="input-box" required>
+
+            <label for="lname">Last Name</label>
+            <input id="lname" type="text" class="input-box" required>
+
+            <label for="email">Email</label>
+            <input id="email" type="email" class="input-box" required>
+
+            <!-- radio buttons set 1 -->
+            <label for="indoor">Indoor</label>
+            <input id="indoor" type="radio" name="ride" value="indoor">
+
+            <label for="outdoor">Outdoor</label>
+            <input id="outdoor" type="radio" name="ride" value="outdoor">
+
+            <!-- radio buttons set 2 -->
+            <label for="wednesday">Wednesday 13:00</label>
+            <input id="wednesday" type="radio" name="time" value="wednesday">
+
+            <label for="friday">Friday 17:00</label>
+            <input id="friday" type="radio" name="time" value="friday">
+
+            <label for="saturday">Saturday 10:00</label>
+            <input id="saturday" type="radio" name="time" value="saturday">
+
+            <input type="submit" class="submit" value="Send">
         </form>
     </section>
     <footer>
         social links and contact details
     </footer>
-    <!--    <label for="fname">First Name</label>
-             <imput type="text" id="fname" name="first_name" class="input-box" required>
-             <label for="lname">Last Name</label>
-             <imput type="text" id="lname" name="last_name" class="input-box" required>
-             <label for="email">Email</label>
-             <imput type="email" id="email" name="email_address" class="input-box" required>
-
-             <label for="indoor">Indoor</label>
-             <imput type="radio" id="indoor" name="ride_preference" value="indoor" required>
-             <label for="outdoor">Outdoor</label>
-             <imput type="radio" id="outdoor" name="ride_preference" value="outdoor" required>
-
-             <label for="wednesday">Wednesday 13:00</label>
-             <imput type="radio" id="wednesday" name="day_preference" value="wednesday" required>
-             <label for="friday">Friday 17:00</label>
-             <imput type="radio" id="friday" name="day_preference" value="friday" required>
-             <label for="saturday">Saturday 10:00</label>
-             <imput type="radio" id="saturday" name="day_preference" value="saturday" required>
-
-             <imput type="submit" class="submit" value="book"> -->
 </body>
 </html>
