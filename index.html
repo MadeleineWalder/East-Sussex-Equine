@@ -21,7 +21,7 @@
         <nav>
             <ul id="menu">
                 <li>
-                    <a href="#">Booking</a>
+                    <a href="#">Sign Up</a>
                 </li>
                 <li>
                     <a href="#">Gallery</a>
@@ -111,36 +111,38 @@
             </div>
         </div>
     </section>
-    <section id="booking">
-        <h2>Booking</h2>
-        <form action="https://formdump.codeinstitute.net" method="POST" class="booking-form">
-            <label for="fname">First Name</label>
+    <section id="sign-up">
+        <h2>Sign Up</h2>
+        <form action="https://formdump.codeinstitute.net" method="POST" id="booking-form">
+            <label for="fname">First Name:</label>
             <input id="fname" type="text" class="input-box" required>
-
-            <label for="lname">Last Name</label>
+            <hr>
+            <label for="lname">Last Name:</label>
             <input id="lname" type="text" class="input-box" required>
-
-            <label for="email">Email</label>
+            <hr>
+            <label for="email">Email:</label>
             <input id="email" type="email" class="input-box" required>
-
-            <!-- radio buttons set 1 -->
+            <hr>
+            <!-- radio buttons -->
             <label for="indoor">Indoor</label>
-            <input id="indoor" type="radio" name="ride" value="indoor">
-
+            <input id="indoor" type="radio" name="ride" value="indoor" required>
+            <hr>
             <label for="outdoor">Outdoor</label>
-            <input id="outdoor" type="radio" name="ride" value="outdoor">
+            <input id="outdoor" type="radio" name="ride" value="outdoor" required>
+            <hr>
+            <!-- dropdown menu -->
+            <label for="time">Choose a session:</label>
+            <input list="date-and-time" id="time" name="time" type="text" class="input-box" required>
 
-            <!-- radio buttons set 2 -->
-            <label for="wednesday">Wednesday 13:00</label>
-            <input id="wednesday" type="radio" name="time" value="wednesday">
-
-            <label for="friday">Friday 17:00</label>
-            <input id="friday" type="radio" name="time" value="friday">
-
-            <label for="saturday">Saturday 10:00</label>
-            <input id="saturday" type="radio" name="time" value="saturday">
-
-            <input type="submit" class="submit" value="Send">
+            <datalist id="date-and-time">
+                <option value="Wednesday 16:00"></option>
+                <option value="Thursday 17:00"></option>
+                <option value="Friday 18:00"></option>
+                <option value="Saturday 10:00"></option>
+                <option value="Sundayday 11:00"></option>
+            </datalist>
+            <hr>
+            <input type="submit" class="submit-button" value="Sign Up">
         </form>
     </section>
     <footer>
