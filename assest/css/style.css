@@ -15,14 +15,6 @@ body {
 
 /* headings and logo */
 
-
-h1 {
-    font-family: Open Sans, sans-serif;
-    padding-left: 10px;
-    letter-spacing: 2px;
-    color: #F8F9F9;
-}
-
 h2 {
     font-family: Noto Sans Japanese, sans-serif;
     font-size: 190%;
@@ -43,6 +35,8 @@ h3 {
 }
 
 #logo {
+    font-family: Open Sans, sans-serif;
+    color: #F8F9F9;
     float: left;
     font-size: 360%;
     padding-left: 20px;
@@ -317,4 +311,82 @@ footer {
 
 #photos > img {
     width: 100%;
+}
+
+/* Media queries */ 
+
+@media screen and (max-width: 1400px) {
+
+    #logo {
+        padding-right: 20px;
+    }
+    
+    #about {
+        height: 800px;
+    }
+
+    #rides {
+        height: 1800px;
+    }
+
+    #indoor-ride, #outdoor-ride {
+        float: left;
+        width: 100%;
+    }
+
+    .indoor-img, .outdoor-img {
+        float: left;
+        margin-left: 375px;
+    }
+
+    .indoor-text, .outdoor-text {
+        float: left;
+        width: 50%;
+        margin-left: 350px;
+    }
+
+    #contacts {
+        float: left;
+        margin-left: 130px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    #about {
+        height: 1100px;
+    }
+    
+    #left-about, #right-about {
+        width: 100%;
+        float: left;
+        padding: none;
+        
+    }
+
+    .left-about-text, .right-about-text, .center-about-text {
+        float: left;
+        padding-left: 15%;
+    }
+
+    #center-about {
+        width: 100%;
+        float: left;
+        padding: none;
+    }
+
+    #rides {
+        height: 1250px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+
+    #about {
+        height: 1300px;
+    }
+
+    #rides {
+        height: 1450px;
+    }
 }
