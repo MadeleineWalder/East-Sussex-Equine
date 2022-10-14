@@ -376,7 +376,12 @@ footer {
     }
 
     #rides {
-        height: 1250px;
+        height: 2100px;
+    }
+
+    .indoor-img, .outdoor-img {
+        float: left;
+        margin-left: 300px;
     }
 }
 
@@ -387,6 +392,6 @@ footer {
     }
 
     #rides {
-        height: 1450px;
+        height: 2200px;
     }
 }
