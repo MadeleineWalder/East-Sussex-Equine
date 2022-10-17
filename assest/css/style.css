@@ -293,7 +293,7 @@ footer {
 
 /* gallery page */ 
 
-#header {
+#gallery {
     width: 100%;
     height: 250px;
     background-color: #202916;
@@ -302,7 +302,7 @@ footer {
 #photos {
     clear: both;
     line-height: 0;
-    column-count: 5;
+    column-count: 4;
     column-gap: 0;
     background-color: #202916;
     padding-bottom: 200px;
@@ -350,7 +350,13 @@ footer {
     }
 
     /* gallery */
-     #photos {
+    #gallery {
+        background-color: #202916;
+        width: 100%;
+        height: 350px;
+    }
+    
+    #photos {
         column-count: 4;
     }
 }
@@ -398,7 +404,12 @@ footer {
     }
 
     /* gallery */
-     #photos {
+    #gallery h2 {
+        float: left;
+        padding-left: 20px;
+    }
+    
+    #photos {
         column-count: 3;
     }
 }
