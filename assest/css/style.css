@@ -353,6 +353,11 @@ footer {
 
 @media screen and (max-width: 1200px) {
 
+    #menu {
+        float: right;
+        
+    }
+    
     #about {
         height: 1100px;
     }
@@ -393,5 +398,22 @@ footer {
 
     #rides {
         height: 2200px;
+    }
+
+    .indoor-img, .outdoor-img {
+        float: left;
+        margin: 0 auto;
+        position: relative;
+        margin-left: 175px;
+    }
+
+    .indoor-text, .outdoor-text {
+        float: left;
+        width: 50%;
+        margin-left: 270px;
+    }
+
+    #contacts {
+        margin-left: 20px;
     }
 }
