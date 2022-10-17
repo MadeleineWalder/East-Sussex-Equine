@@ -152,9 +152,9 @@ h3 {
 }
 
 
-/* rides section */
+/* rides-info section */
 
-#rides {
+#rides-info {
     height: 1070px;
     width: 100%;
     background-color: #202916;
@@ -325,7 +325,7 @@ footer {
         height: 800px;
     }
 
-    #rides {
+    #rides-info {
         height: 1800px;
     }
 
@@ -349,6 +349,11 @@ footer {
         float: left;
         margin-left: 130px;
     }
+
+    /* gallery */
+     #photos {
+        column-count: 4;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -365,7 +370,7 @@ footer {
     #left-about, #right-about {
         width: 100%;
         float: left;
-        padding: none;
+        padding: 0;
         
     }
 
@@ -377,10 +382,10 @@ footer {
     #center-about {
         width: 100%;
         float: left;
-        padding: none;
+        padding: 0;
     }
 
-    #rides {
+    #rides-info {
         height: 2100px;
     }
 
@@ -388,15 +393,24 @@ footer {
         float: left;
         margin-left: 300px;
     }
+
+    #contacts {
+        margin-left: 20px;
+    }
+
+    /* gallery */
+     #photos {
+        column-count: 3;
+    }
 }
 
 @media screen and (max-width: 950px) {
 
     #about {
-        height: 1300px;
+        height: 1100px;
     }
 
-    #rides {
+    #rides-info {
         height: 2200px;
     }
 
@@ -413,7 +427,8 @@ footer {
         margin-left: 270px;
     }
 
-    #contacts {
-        margin-left: 20px;
+    /* gallery */
+    #photos {
+        column-count: 2;
     }
 }
