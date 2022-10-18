@@ -59,7 +59,7 @@ I used the W3C CSS Validator to test my CSS. There were a couple of minor errors
 When first creating my form I discovered a bug where my input boxes were not visible to the user and couldn't be typed in.
 Bug fixed by rewriting the form code. Here I realised in comparison that the original form code was not properly intended, resulting in the visual bug.
 
-<img src="./assests/images/form-bug-1.jpg" alt="screenshot">
+![form bug image 1](assets/images/formbug1.jpg)
 
 ## Deployment
 
@@ -68,6 +68,8 @@ First I went to Github and clicked repositories on the left. I then clicked on t
 
 ## Credits
 
-imagecolorpicker.com
-fontawesome.com
-pexels.com
+[imagecolorpicker.com](https://imagecolorpicker.com/en) -for choosing background colours from the hero image
+
+[fontawesome.com](https://fontawesome.com/) -source of all icons used
+
+[pexels.com](https://www.pexels.com/) -source of all images used
