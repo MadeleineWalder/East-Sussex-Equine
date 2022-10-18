@@ -59,7 +59,7 @@ I used the W3C CSS Validator to test my CSS. There were a couple of minor errors
 When first creating my form I discovered a bug where my input boxes were not visible to the user and couldn't be typed in.
 Bug fixed by rewriting the form code. Here I realised in comparison that the original form code was not properly intended, resulting in the visual bug.
 
-![form bug image 1](assets/images/formbug1.jpg)
+![form bug image 1](./assest/images/formbug1.jpg)
 
 ## Deployment
 
