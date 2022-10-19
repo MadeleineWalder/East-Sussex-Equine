@@ -381,7 +381,7 @@ footer {
 
     .left-about-text, .right-about-text, .center-about-text {
         float: left;
-        padding-left: 15%;
+        padding-left: 20%;
     }
 
     #center-about {
