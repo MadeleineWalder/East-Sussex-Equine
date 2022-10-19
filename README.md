@@ -103,12 +103,13 @@ After fix:
 ## Deployment:
 
 I deployed my site through Github pages.
-- First I went to Github and clicked repositories on the left
-- There I found the project I wanted to deploy, clicked on settings and scrolled down to to source 
-- Here I changed the source from 'none' to 'main' for the git branch 
+- First I went to Github and found my project repository on the left hand side and clicked it
+- I then clicked on 'Settings' and then the 'Pages' option on the left   
+- Here I changed the branch from 'none' to 'main'
 - Finally I clicked save and after a short while it produced a link to my deployed site
 
-*insert link here*
+**Link to deployed site:**
+https://madeleinewalder.github.io/East-Sussex-Equine/ 
 
 ---
 
