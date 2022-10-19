@@ -73,13 +73,13 @@ Lighthouse report:
 
 ### Validator Testing
 
-- I used the W3C HTML Validator to test my html. The results showed several errors which I then fixed, resulting in 0 errors.
+- I used the [W3C HTML Validator](https://validator.w3.org/#validate_by_input) to test my html. The results showed several errors which I then fixed, resulting in 0 errors.
 
 HTML validation after errors fixed:
 
 ![The W3C Validator showing no errors in my HTML](./assest/images/html-validator.jpg)
 
-- I used the W3C CSS Validator to test my CSS. There were a couple of minor errors which were easy to fix, resulting in 0 errors.
+- I used the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) to test my CSS. There were a couple of minor errors which were easy to fix, resulting in 0 errors.
 
 CSS validation after errors fixed:
 
@@ -117,7 +117,7 @@ https://madeleinewalder.github.io/East-Sussex-Equine/
 
 ## Credits:
 
-### Websites to credit:
+### Websites that helped:
 
 - [imagecolorpicker.com](https://imagecolorpicker.com/en) -For choosing background colours from the hero image
 
@@ -127,4 +127,4 @@ https://madeleinewalder.github.io/East-Sussex-Equine/
 
 - [amiresponsive.com](https://ui.dev/amiresponsive) -Website used to show my project on different device screens
 
-- [How to add an image to README.md](https://www.seancdavis.com/posts/three-ways-to-add-image-to-github-readme/) -This website by Sean Davis had an extremely useful tutorial showing different ways to add an image to a read me file. It was very helpful as I couldn't figure out why my images weren't displaying.
+- [How to add an image to README.md](https://www.seancdavis.com/posts/three-ways-to-add-image-to-github-readme/) -This website by Sean Davis had an extremely useful tutorial showing different ways to add an image to a read me file on Github. It was very helpful as I couldn't figure out why my images weren't displaying. He explained that you need an '!' in front of the square brackets to add an image instead of just a link. This was why my images weren't visible.
