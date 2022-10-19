@@ -2,6 +2,8 @@
 
 Welcome to my first ever website! For my first ever site I wanted to choose a topic that lies close to my heart: horse riding. East Sussex Equine is a website that provides users the opportunity to learn more about the riding school and the services it provides. The riding school would be based in East Sussex in England where I grew up, which has beautiful countryside perfect for exploring on horseback. The goal is to create a friendly yet professional looking website to encourage people of any skill level to have a go. In order to achieve this the site must offer plenty of information about the types of rides offered, along with a way to sign up online to make it easy  for potential customers to join. 
 
+![A screenshot of my finished website appearing on different devices](./assest/images/finished.jpg)
+
 ---
 
 ## Existing Features:
@@ -122,5 +124,7 @@ https://madeleinewalder.github.io/East-Sussex-Equine/
 - [fontawesome.com](https://fontawesome.com/) -Source of all icons used
 
 - [pexels.com](https://www.pexels.com/) -Source of all images used
+
+- [amiresponsive.com](https://ui.dev/amiresponsive) -Website used to show my project on different device screens
 
 - [How to add an image to README.md](https://www.seancdavis.com/posts/three-ways-to-add-image-to-github-readme/) -This website by Sean Davis had an extremely useful tutorial showing different ways to add an image to a read me file. It was very helpful as I couldn't figure out why my images weren't displaying.
