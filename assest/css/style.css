@@ -10,10 +10,8 @@ body {
     font-family: Open Sans, sans-serif;
     font-weight: 400;
     color: #F8F9F9;
+    background-color: #202916;
 }
-
-
-/* headings and logo */
 
 h2 {
     font-family: Noto Sans Japanese, sans-serif;
@@ -43,9 +41,6 @@ h3 {
     letter-spacing: 4px;
 }
 
-
-/* navigation links */
-
 #menu {
     font-size: 140%;
     letter-spacing: 1px;
@@ -74,25 +69,17 @@ h3 {
     border-bottom: 2px solid #F8F9F9;
 }
 
-
-/* hero image */
-
 #hero-image {
     height: 600px;
     width: 100%;
-    background: url(../images/pexels-helena-lopes-2050425\ \(13\).jpg) no-repeat center center;
+    background: url(../images/pexels-helena-lopes.jpg) no-repeat center center;
 }
-
-
-/* about section */
 
 #about {
     height: 550px;
     width: 100%;
     background-color: #3c4027;
 }
-
-/* left */
 
 #left-about {
     padding: 50px;
@@ -112,8 +99,6 @@ h3 {
     text-align: center;
 }
 
-/* center */
-
 #center-about {
     padding: 50px;
     width: 33%;
@@ -130,8 +115,6 @@ h3 {
     font-size: 110%;
     text-align: center;
 }
-
-/* right */
 
 #right-about {
     padding: 50px;
@@ -151,16 +134,11 @@ h3 {
     text-align: center;
 }
 
-
-/* rides-info section */
-
 #rides-info {
     height: 1070px;
     width: 100%;
     background-color: #202916;
 }
-
-/* indoor ride */
 
 #indoor-ride {
     padding-top: 100px;
@@ -182,8 +160,6 @@ h3 {
     clear: both;
 }
 
-/* outdoor ride */
-
 #outdoor-ride {
     padding-top: 100px;
     width: 45%;
@@ -203,9 +179,6 @@ h3 {
     text-align: center;
     clear: both;
 }
-
-
-/* booking section */
 
 #sign-up {
     height: 900px;
@@ -257,8 +230,6 @@ h3 {
     color: #F8F9F9;
 }
 
-/* footer */
-
 footer {
     background-color: #202916;
     width: 100%;
@@ -289,9 +260,7 @@ footer {
 
 #socials li:hover {
     border-bottom: 2px solid #F8F9F9;
-}
-
-/* gallery page */ 
+} 
 
 #gallery {
     width: 100%;
@@ -311,8 +280,6 @@ footer {
 #photos > img {
     width: 100%;
 }
-
-/* Media queries */ 
 
 @media screen and (max-width: 1400px) {
 
@@ -525,5 +492,66 @@ footer {
     #gallery h2 {
         font-size: 110%;
         padding: 5px;
+    }
+}
+
+/* iPhoneSE screen size */
+@media screen and (max-width: 375px) {
+    #logo {
+        float: none;
+        font-size: 200%;
+        padding: 2%;
+        letter-spacing: 0;
+        line-height: 100%;
+    }
+
+    header {
+        background-color: #202916;
+    }
+
+    #menu {
+        float: left;
+        line-height: 100%;
+    }
+
+    #menu li {
+        float: right;
+        margin-right: 0;
+        padding: 10px;
+        font-size: 70%;
+    }
+
+    h2 {
+        font-size: 120%;
+        padding: 0;
+    }
+
+    footer {
+        height: 100%;
+        font-size: 80%;
+        line-height: 100%;
+        letter-spacing: 0;
+    }
+
+    #contacts {
+        margin-left: 1%;
+        padding-top: 0;
+    }
+    
+    #socials li {
+        margin-right: 1%;
+        padding: 5%;
+        font-size: 200%;
+    }
+
+    #gallery {
+        width: 100%;
+        height: 250px;
+        background-color: #202916;
+    }
+
+    #photos {
+        column-count: 1;
+        padding-bottom: 5%;
     }
 }
