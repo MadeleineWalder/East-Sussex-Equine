@@ -446,7 +446,24 @@ footer {
     }
     
     #menu {
-        font-size: 130%;
+        font-size: 110%;
+    }
+
+    h2 {
+        font-size: 160%;
+        padding-top: 8%;
+    }
+
+    h3 {
+        font-size: 140%;
+    }
+
+    #sign-up p {
+        font-size: 100%;
+    }
+
+    #booking-form {
+        font-size: 90%;
     }
 
     #photos {
