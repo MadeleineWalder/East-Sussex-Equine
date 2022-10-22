@@ -490,6 +490,10 @@ footer {
         font-size: 120%;
     }
 
+    #menu li {
+        margin-right: 8%;
+    }
+
     #photos {
         column-count: 1;
     }
@@ -507,15 +511,27 @@ footer {
 @media screen and (max-width: 375px) {
 
     #logo {
-        font-size: 180%;
+        font-size: 190%;
     }
 
     #menu {
-        font-size: 100%;
+        font-size: 110%;
+    }
+
+    #menu li {
+        margin-right: 8.5%;
     }
 
     .left-about-text, .right-about-text, .center-about-text {
         font-size: 80%;
+    }
+
+    .indoor-text, .outdoor-text {
+        font-size: 100%;
+    }
+
+    #sign-up p {
+        font-size: 90%;
     }
     
     #contacts {
