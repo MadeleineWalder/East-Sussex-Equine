@@ -550,6 +550,10 @@ footer {
 /* screen size for Samsung Galaxy S8+ */
 @media screen and (max-width: 360px) {
 
+    #menu li {
+        margin-right: 8%;
+    }
+    
     #socials {
         font-size: 130%;
     }
