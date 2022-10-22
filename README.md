@@ -2,30 +2,36 @@
 
 Welcome to my first ever website! For my first ever site I wanted to choose a topic that lies close to my heart: horse riding. East Sussex Equine is a website that provides users the opportunity to learn more about the riding school and the services it provides. The riding school would be based in East Sussex in England where I grew up, which has beautiful countryside perfect for exploring on horseback. The goal is to create a friendly yet professional looking website to encourage people of any skill level to have a go. In order to achieve this the site must offer plenty of information about the types of rides offered, along with a way to sign up online to make it easy  for potential customers to join. 
 
-![A screenshot of my finished website appearing on different devices](./docs/screenshots/finished.jpg)
-
+### Link to deployed site: https://madeleinewalder.github.io/East-Sussex-Equine/ 
 ---
 
 ## Existing Features:
 
+### Color Scheme
+
+- I decided to use a color scheme of green and white to match the color of country side and nature around the location where the stables would be based. Green fields are a common location for horses and white stands out well against it making for a calming and natural look.
+
 ### The Header
 
-- The header shows the logo and the navigation bar. Both can be clicked on to take the user to different parts of the site. I made these white to stand out better against the image background. I found that darker text blended in too well with the dark green and brown shades of the image. 
+- **Logo:** The logo is white which follows the color scheme for all text on this site. It also has a heavier font-weight to help it stand out as a logo should. It can be clicked on to navigate the user back to the main page, from the Gallery for example.
+
+![A close up of the logo](./docs/screenshots/newheader.jpg)
+
+- **Navigation bar:** Can be clicked on to take the user to different parts of the site. The navigation options underline when you hover over them, and stay underlined to show what page you are on. 
+
 ![A close up of the navigation bar](./docs/screenshots/nav.jpg)
 
-- The navigation options underline when you hover over them, and stay underlined to show what page you are on.
-
-- At first I was going to make the background just one solid colour, but then I found the hero image which I thought was beautiful and worked really well as a background instead. I knew I wanted the colour theme of my site to be green with white text, to match the colours of the countryside and give the site a natural feel. I actually ended up using a site called **imagecolorpicker.com** to pick specific shades of green from the image, which I then used throughout the site. This really helped the site come together as it gave it a feel of consistency.
+- **Hero Image:** I decided to use this image as the hero image as I liked the colors and it was very eye-catching yet not too distracting. I knew I wanted the colour scheme of my site to be green with white text, so I actually ended up using a site called [imagecolorpicker.com](https://imagecolorpicker.com/en) to pick specific shades of green from the image, which I then used throughout the site, including the dark green background for the logo and navigation bar. This really helped the site come together as it gave it a feel of consistency and made every section fit together.
 ![A screenshot of the header containing the hero image, logo and navigation bar](./docs/screenshots/header.jpg)
 
 ### About Section
 
-- The goal of this section is to answer three main questions users might have when visiting the site for the first time: Why should I try horse riding? Why should I ride here specifically? What equipment to I need to ride? It was important not to have too much information here, as I don't want to overwhelm the user. Instead I stuck to three questions with three very short paragraphs containing the most helpful and condensed information to make it easy to read. I added icons to the questions from **fontawesome.com** to help make it more clear what each paragraph was going to be about and draw the users attention.
+- The goal of this section is to answer three main questions users might have when visiting the site for the first time: Why should I try horse riding? Why should I ride here specifically? What equipment to I need to ride? It was important not to have too much information here, as I don't want to overwhelm the user. Instead I stuck to three questions with three very short paragraphs containing the most helpful and condensed information to make it easy to read. I added icons to the questions from [fontawesome.com](https://fontawesome.com/) to help make it more clear what each paragraph was going to be about and draw the users attention.
 ![A screenshot of the About section](./docs/screenshots/about.jpg)
 
 ### Rides Section
 
-- I knew when beginning to plan my website by drawing out a rough layout that I wanted to enclude two images here. One would go with information about riding indoors and one for riding outdoors. I sourced all of my images for this project from **pexels.com** which has thousands of free images to use.
+- I knew when beginning to plan my website by drawing out a rough layout that I wanted to enclude two images here. One would go with information about riding indoors and one for riding outdoors. I sourced all of my images for this project from [pexels.com](https://www.pexels.com/) which has thousands of free images to use.
 
 - I used the same font, font color and included icons again to keep consistancy. The background colour is different to show clearly that it is a different section and to break up the page a little. As mentioned earlier this colour is also taken from the hero image, and contrasts nicely with the white text. It's also not too distracting from the images used here.
 ![A screenshot of the Rides section](./docs/screenshots/rides.jpg)
@@ -60,14 +66,19 @@ Welcome to my first ever website! For my first ever site I wanted to choose a to
 
 ## Testing: 
 
-- I have tested my site on different screen sizes using Devtools to check that it works.
-- I have filled out the form multiple times to make sure it works and all the fields are required.
-- I have navigated to different sections and pages using the navigation bar to test that it works.
+- I have tested my site on different screen sizes using Devtools and [amiresponsive.com](https://ui.dev/amiresponsive) to check that it works.
+
+![A screenshot of my finished website appearing on different devices](./docs/screenshots/finished.jpg)
+
 - I have tested my site using the devtools Lighthouse feature. The score is very good with a minimum of 90% in each field.
 
-Lighthouse report:
-
 ![The lighthouse report showing every field is green](./docs/screenshots/lighthouse2.jpg)
+
+- I have filled out the form multiple times to make sure it works and all the fields are required. Apon submitting the form you receive a conformation message on a separate page.
+
+![]()
+
+- I have navigated to different sections and pages using the navigation bar to test that it works.
 
 ---
 
@@ -104,8 +115,16 @@ After fix:
 
 ## Deployment:
 
-I deployed my site through Github pages.
-- First I went to Github and found my project repository on the left hand side and clicked it
+### Gitpod
+
+- Typing 'python3 -m http.server' into the Gitpod terminal allows you to view the site in a browser as if it were live
+- Every time a secton of code is added the browser can be refreshed to see the change, sometimes you need to press ctrl, shift and R for changes to be updated
+- To save and commit progress, type 'git add .' into the terminal followed by 'git commit -m' and then your message describing what you did in double quotes
+- Typing 'git push' will then push your code, and this should be done at the end of every coding session or whenever you want an already deployed site to be updated
+
+### Github Pages
+
+- To deploy my site I first went to Github and found my project repository on the left hand side and clicked it
 - I then clicked on 'Settings' and then the 'Pages' option on the left   
 - Here I changed the branch from 'none' to 'main'
 - Finally I clicked save and after a short while it produced a link to my deployed site
