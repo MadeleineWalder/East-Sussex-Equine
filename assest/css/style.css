@@ -409,14 +409,6 @@ footer {
     }
 }
 
-/* screen size for 640px */
-@media screen and (max-width: 640px) {
-
-    #rides-images img {
-        width: 100%;
-    }
-}
-
 /* screen size for Surface Duo */
 @media screen and (max-width: 540px) {
 
@@ -427,6 +419,10 @@ footer {
     #menu {
         font-size: 140%;
         clear: left;
+    }
+
+    #hero-image {
+        width: 100%;
     }
 
     #photos {
