@@ -346,6 +346,10 @@ footer {
         width: 90%;
         padding: 5% 0 0 5%;
     }
+
+    .outdoor-text {
+        padding-bottom: 8%;
+    }
     
     #contacts {
         font-size: 130%;
