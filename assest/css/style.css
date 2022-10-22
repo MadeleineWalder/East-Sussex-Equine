@@ -85,6 +85,7 @@ header {
     width: 100%;
     background-color: #3c4027;
     padding-bottom: 8%;
+    clear: both;
 }
 
 #left-about {
@@ -144,6 +145,7 @@ header {
     height: 100%;
     width: 100%;
     background-color: #202916;
+    clear: both;
 }
 
 #indoor-image {
@@ -187,6 +189,7 @@ header {
     width: 100%;
     padding-bottom: 5%;
     background-color: #3c4027;
+    clear: both;
 }
 
 #sign-up p {
@@ -284,13 +287,22 @@ footer {
 /* screen size for Nest Hub Max */
 @media screen and (max-width: 1280px) {
 
-    #photos {
-        column-count: 2;
+    #logo {
+        font-size: 300%;
+    }
+
+    #menu {
+        font-size: 120%;
+    }
+
+    #about {
+        background-color: #202916;
     }
 
     #left-about, #right-about, #center-about {
         float: left;
-        width: 100%;
+        width: 80%;
+        padding-left: 10%;
     }
 
     .left-about-text, .right-about-text, .center-about-text {
@@ -298,20 +310,43 @@ footer {
        width: 100%;
     }
 
+    #rides-images {
+        padding-top: 8%;
+    }
+
     #indoor-image, #outdoor-image {
+        width: 80%;
         float: left;
-        padding: 0;
+        padding: 5% 10%;
+    }
+
+    #rides-text {
+        padding-bottom: 50%;
     }
 
     .indoor-text, .outdoor-text {
         float: left;
-        width: 100%;
+        width: 80%;
+        padding-left: 10%;
+    }
+    
+    #booking-form {
+        max-width: 40%;
+    }
+
+    #photos {
+        column-count: 2;
     }
 }
 
 /* screen size for iPad Pro */
 @media screen and (max-width: 1024px) {
 
+    #rides-images img {
+        width: 90%;
+        padding: 5% 0 0 5%;
+    }
+    
     #contacts {
         font-size: 130%;
     }
@@ -352,6 +387,8 @@ footer {
         font-size: 320%;
     }
 
+   
+
     #photos {
         column-count: 2;
     }
@@ -362,6 +399,14 @@ footer {
 
     #socials {
         font-size: 220%;
+    }
+}
+
+/* screen size for 640px */
+@media screen and (max-width: 640px) {
+
+    #rides-images img {
+        width: 100%;
     }
 }
 
@@ -447,6 +492,10 @@ footer {
 
     #menu {
         font-size: 100%;
+    }
+
+    .left-about-text, .right-about-text, .center-about-text {
+        font-size: 80%;
     }
     
     #contacts {
