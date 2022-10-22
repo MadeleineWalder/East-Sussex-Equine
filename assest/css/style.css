@@ -7,14 +7,14 @@
 }
 
 body {
-    font-family: Open Sans, sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 400;
     color: #F8F9F9;
     background-color: #202916;
 }
 
 h2 {
-    font-family: Noto Sans Japanese, sans-serif;
+    font-family: "Noto Sans Japanese", sans-serif;
     font-size: 190%;
     padding-top: 1%;
     letter-spacing: 2px;
@@ -24,7 +24,7 @@ h2 {
 }
 
 h3 {
-    font-family: Open Sans, sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 400;
     font-size: 150%;
     letter-spacing: 1px;
@@ -33,11 +33,11 @@ h3 {
 }
 
 header {
-    padding-bottom: 4%;
+    padding-bottom: 5%;
 }
 
 #logo {
-    font-family: Open Sans, sans-serif;
+    font-family: "Open Sans", sans-serif;
     color: #F8F9F9;
     float: left;
     font-size: 360%;
@@ -88,7 +88,7 @@ header {
 }
 
 #left-about {
-    padding: 50px;
+    padding-top: 4%;
     width: 33%;
     float: left;
 }
@@ -106,7 +106,7 @@ header {
 }
 
 #center-about {
-    padding: 50px;
+    padding-top: 4%;
     width: 33%;
     margin: 0 auto;
 }
@@ -123,7 +123,7 @@ header {
 }
 
 #right-about {
-    padding: 50px;
+    padding-top: 4%;
     width: 33%;
     float: right;
 }
@@ -287,6 +287,26 @@ footer {
     #photos {
         column-count: 2;
     }
+
+    #left-about, #right-about, #center-about {
+        float: left;
+        width: 100%;
+    }
+
+    .left-about-text, .right-about-text, .center-about-text {
+       float: left;
+       width: 100%;
+    }
+
+    #indoor-image, #outdoor-image {
+        float: left;
+        padding: 0;
+    }
+
+    .indoor-text, .outdoor-text {
+        float: left;
+        width: 100%;
+    }
 }
 
 /* screen size for iPad Pro */
@@ -426,10 +446,9 @@ footer {
     }
 
     #menu {
-        
         font-size: 100%;
     }
-
+    
     #contacts {
         font-size: 90%;
     }
