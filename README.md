@@ -2,7 +2,7 @@
 
 Welcome to my first ever website! For my first ever site I wanted to choose a topic that lies close to my heart: horse riding. East Sussex Equine is a website that provides users the opportunity to learn more about the riding school and the services it provides. The riding school would be based in East Sussex in England where I grew up, which has beautiful countryside perfect for exploring on horseback. The goal is to create a friendly yet professional looking website to encourage people of any skill level to have a go. In order to achieve this the site must offer plenty of information about the types of rides offered, along with a way to sign up online to make it easy  for potential customers to join. 
 
-![A screenshot of my finished website appearing on different devices](./assest/images/finished.jpg)
+![A screenshot of my finished website appearing on different devices](./docs/screenshots/finished.jpg)
 
 ---
 
@@ -11,42 +11,42 @@ Welcome to my first ever website! For my first ever site I wanted to choose a to
 ### The Header
 
 - The header shows the logo and the navigation bar. Both can be clicked on to take the user to different parts of the site. I made these white to stand out better against the image background. I found that darker text blended in too well with the dark green and brown shades of the image. 
-![A close up of the navigation bar](./assest/images/nav.jpg)
+![A close up of the navigation bar](./docs/screenshots/nav.jpg)
 
 - The navigation options underline when you hover over them, and stay underlined to show what page you are on.
 
 - At first I was going to make the background just one solid colour, but then I found the hero image which I thought was beautiful and worked really well as a background instead. I knew I wanted the colour theme of my site to be green with white text, to match the colours of the countryside and give the site a natural feel. I actually ended up using a site called **imagecolorpicker.com** to pick specific shades of green from the image, which I then used throughout the site. This really helped the site come together as it gave it a feel of consistency.
-![A screenshot of the header containing the hero image, logo and navigation bar](./assest/images/header.jpg)
+![A screenshot of the header containing the hero image, logo and navigation bar](./docs/screenshots/header.jpg)
 
 ### About Section
 
 - The goal of this section is to answer three main questions users might have when visiting the site for the first time: Why should I try horse riding? Why should I ride here specifically? What equipment to I need to ride? It was important not to have too much information here, as I don't want to overwhelm the user. Instead I stuck to three questions with three very short paragraphs containing the most helpful and condensed information to make it easy to read. I added icons to the questions from **fontawesome.com** to help make it more clear what each paragraph was going to be about and draw the users attention.
-![A screenshot of the About section](./assest/images/about.jpg)
+![A screenshot of the About section](./docs/screenshots/about.jpg)
 
 ### Rides Section
 
 - I knew when beginning to plan my website by drawing out a rough layout that I wanted to enclude two images here. One would go with information about riding indoors and one for riding outdoors. I sourced all of my images for this project from **pexels.com** which has thousands of free images to use.
 
 - I used the same font, font color and included icons again to keep consistancy. The background colour is different to show clearly that it is a different section and to break up the page a little. As mentioned earlier this colour is also taken from the hero image, and contrasts nicely with the white text. It's also not too distracting from the images used here.
-![A screenshot of the Rides section](./assest/images/rides.jpg)
+![A screenshot of the Rides section](./docs/screenshots/rides.jpg)
 
 ### Sign Up Section
 
 - This section reverts back to the colour used in the About section, again to keep the consistent look. Here I made a booking form which is fully interactive and functional. Each input box is required before the form can be submitted, the radio buttons work and the submit button inverts its colours when hovered over to make it clear.
 
 - It took me a while to come to a conclusion on the layout of the form. It must be simple and easy to use to encourage people to sign up. This was a challenge as I had a lot of different options to fit into it. At first I tried making two sets of radio buttons, one for indoor/outdoor and the other for a specifc day and time. This ended up looking cluttered and messy as I had so many inputs, so I decided to make a dropdown menu instead which looked much cleaner. 
-![A screenshot of the Sign Up section including the form](./assest/images/signup.jpg)
+![A screenshot of the Sign Up section including the form](./docs/screenshots/signup.jpg)
 
 ### The Gallery
 
 - The gallery has a range of photos and shows more or less photos per row depending on the screen size, making them easier to see on smaller devises. This page has a dark green background colour in the header instead of the hero image on the home page. This better draws focus to the gallery photos whilst keeping with the colour scheme. The footer is also present on this page to keep the contact details and social media links easily accessible. 
-![A screenshot of the gallery including the header and photos](./assest/images/gallery.jpg)
+![A screenshot of the gallery including the header and photos](./docs/screenshots/gallery.jpg)
 
 ### The Footer
 
 - The footer contains the company address and links to its social media pages to make it easy for customers to find the location and any additional information. Each of the social mmedia icons were again taken from Font Awesome and can be clicked. They also underline when hovered in keeping with the navigation bar.
 
-![A screenshot of the footer icluding the address and social media links](./assest/images/footer.jpg)
+![A screenshot of the footer icluding the address and social media links](./docs/screenshots/footer.jpg)
 
 ## Future Features:
 
@@ -67,7 +67,7 @@ Welcome to my first ever website! For my first ever site I wanted to choose a to
 
 Lighthouse report:
 
-![The lighthouse report showing every field is green](./assest/images/lighthouse2.jpg)
+![The lighthouse report showing every field is green](./docs/screenshots/lighthouse2.jpg)
 
 ---
 
@@ -77,13 +77,13 @@ Lighthouse report:
 
 HTML validation after errors fixed:
 
-![The W3C Validator showing no errors in my HTML](./assest/images/html-validator.jpg)
+![The W3C Validator showing no errors in my HTML](./docs/screenshots/html-validator.jpg)
 
 - I used the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) to test my CSS. There were a couple of minor errors which were easy to fix, resulting in 0 errors.
 
 CSS validation after errors fixed:
 
-![The W3C Validator showing no errors in my CSS](./assest/images/cssvalidator2.jpg)
+![The W3C Validator showing no errors in my CSS](./docs/screenshots/cssvalidator2.jpg)
 
 ---
 
@@ -94,11 +94,11 @@ I fixed the bug by copying and pasting my form code into a comment, then rewriti
 
 Before fix:
 
-![form bug before fix](./assest/images/formbug1.jpg)
+![form bug before fix](./docs/screenshots/formbug1.jpg)
 
 After fix:
 
-![form after bug fixed](./assest/images/form%20bug6.jpg)
+![form after bug fixed](./docs/screenshots/form%20bug6.jpg)
 
 ---
 
