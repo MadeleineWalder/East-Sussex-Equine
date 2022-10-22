@@ -410,6 +410,39 @@ footer {
     }
 }
 
+/* screen size for Surface Pro 7 */
+@media screen and (max-width: 912px) {
+
+    #logo {
+        font-size: 360%;
+        line-height: 170%;
+    }
+    
+    #menu {
+        float: left;
+        padding-left: 3%;
+    }
+
+    #menu li {
+        font-size: 150%;
+    }
+
+    #contacts {
+        font-size: 130%;
+    }
+
+    #socials {
+    margin-right: 3%;
+    }
+
+    #socials li {
+        font-size: 250%;
+        margin-right: 0;
+        padding-left: 10%;
+    }
+}
+
+
 /* screen size for iPad Air */
 @media screen and (max-width: 820px) {
 
