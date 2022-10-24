@@ -4,7 +4,7 @@ Welcome to my first ever website! For my first ever site I wanted to choose a to
 
 ### Link to deployed site: https://madeleinewalder.github.io/East-Sussex-Equine/ 
 
-![A screenshot of my finished website appearing on different devices](./docs/screenshots/finished.jpg)
+![A screenshot of my finished website appearing on different devices](./docs/screenshots/amiresponsive.jpg)
 
 [Photo taken using amiresponsive.com](https://ui.dev/amiresponsive)
 
@@ -249,14 +249,4 @@ https://madeleinewalder.github.io/East-Sussex-Equine/
 
 ## Credits:
 
-### Websites that helped:
-
-- [imagecolorpicker.com](https://imagecolorpicker.com/en) -For choosing background colours from the hero image
-
-- [fontawesome.com](https://fontawesome.com/) -Source of all icons used
-
-- [pexels.com](https://www.pexels.com/) -Source of all images used
-
-- [amiresponsive.com](https://ui.dev/amiresponsive) -Website used to show my project on different device screens
-
-- [How to add an image to README.md](https://www.seancdavis.com/posts/three-ways-to-add-image-to-github-readme/) -This website by Sean Davis had an extremely useful tutorial showing different ways to add an image to a read me file on Github. It was very helpful as I couldn't figure out why my images weren't displaying. He explained that you need an '!' in front of the square brackets to add an image instead of just a link. This was why my images weren't visible.
+- [seancdavis.com](https://www.seancdavis.com/posts/three-ways-to-add-image-to-github-readme/) -This website by Sean Davis had an extremely useful tutorial showing different ways to add an image to a read me file on Github. It was very helpful as I couldn't figure out why my images weren't displaying. He explained that you need an '!' in front of the square brackets to add an image instead of just a link. This was why my images weren't visible.
