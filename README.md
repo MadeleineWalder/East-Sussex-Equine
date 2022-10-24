@@ -3,6 +3,11 @@
 Welcome to my first ever website! For my first ever site I wanted to choose a topic that lies close to my heart: horse riding. East Sussex Equine is a website that provides users the opportunity to learn more about the riding school and the services it provides. The riding school would be based in East Sussex in England where I grew up, which has beautiful countryside perfect for exploring on horseback. The goal is to create a friendly yet professional looking website to encourage people of any skill level to have a go. In order to achieve this the site must offer plenty of information about the types of rides offered, along with a way to sign up online to make it easy  for potential customers to join. 
 
 ### Link to deployed site: https://madeleinewalder.github.io/East-Sussex-Equine/ 
+
+![A screenshot of my finished website appearing on different devices](./docs/screenshots/finished.jpg)
+
+[Photo taken using amiresponsive.com](https://ui.dev/amiresponsive)
+
 ---
 
 ## Existing Features:
@@ -13,31 +18,23 @@ Welcome to my first ever website! For my first ever site I wanted to choose a to
 
 ### The Header
 
-- **Logo:** The logo is white which follows the color scheme for all text on this site. It also has a heavier font-weight to help it stand out as a logo should. It can be clicked on to navigate the user back to the main page, from the Gallery for example.
-
-![A close up of the logo](./docs/screenshots/newheader.jpg)
+- **Logo:** The logo is white which follows the color scheme for all text on this site. It also has a heavier font-weight to help it stand out as a logo should. It can be clicked on to navigate the user back to the main page, from the Gallery page for example.
 
 - **Navigation bar:** Can be clicked on to take the user to different parts of the site. The navigation options underline when you hover over them, and stay underlined to show what page you are on. 
 
-
-
-- **Hero Image:** I decided to use this image as the hero image as I liked the colors and it was very eye-catching yet not too distracting. I knew I wanted the colour scheme of my site to be green with white text, so I actually ended up using a site called [imagecolorpicker.com](https://imagecolorpicker.com/en) to pick specific shades of green from the image, which I then used throughout the site, including the dark green background for the logo and navigation bar. This really helped the site come together as it gave it a feel of consistency and made every section fit together.
-
-![A screenshot of the header containing the hero image, logo and navigation bar](./docs/screenshots/header.jpg)
+- **Hero Image:** I decided to use this image as the hero image as I liked the colors and it was very eye-catching yet not too distracting from the other content. I knew I wanted the colour scheme of my site to be green with white text, so I actually ended up using a site called [imagecolorpicker.com](https://imagecolorpicker.com/en) to pick specific shades of green from the image, which I then used throughout the site, including the dark green background for the logo and navigation bar. This really helped the site come together as it gave it a feel of consistency and made every section fit together.
 
 ### About Section
 
-- The goal of this section is to answer three main questions users might have when visiting the site for the first time: Why should I try horse riding? Why should I ride here specifically? What equipment to I need to ride? It was important not to have too much information here, as I don't want to overwhelm the user. Instead I stuck to three questions with three very short paragraphs containing the most helpful and condensed information to make it easy to read. I added icons to the questions from [fontawesome.com](https://fontawesome.com/) to help make it more clear what each paragraph was going to be about and draw the users attention.
-
-![A screenshot of the About section](./docs/screenshots/about.jpg)
+- The goal of this section is to answer three main questions users might have when visiting the site for the first time: Why should I try horse riding? Why should I ride here specifically? What equipment do I need to ride? It was important not to have too much information here, as I don't want to overwhelm the user. Instead I stuck to three questions with three very short paragraphs containing the most helpful and condensed information to make it easy to read and informative. 
+- I added icons to the questions from [fontawesome.com](https://fontawesome.com/) to help make it more clear what each paragraph was going to be about and draw the users attention.
+- On smaller screen sizes such as phones the background color actually changes to match the next section under it, as I found it looked too messy and blocky with multiple different background colors on a smaller screen. It helps the flow of the page.
 
 ### Rides Section
 
-- I knew when beginning to plan my website by drawing out a rough layout that I wanted to enclude two images here. One would go with information about riding indoors and one for riding outdoors. I sourced all of my images for this project from [pexels.com](https://www.pexels.com/) which has thousands of free images to use.
+- I knew when beginning to draw out a rough plan of my website that I wanted to enclude two images here. One would go with information about riding indoors and one for riding outdoors. I sourced all of my images for this project from [pexels.com](https://www.pexels.com/) which has thousands of free images to use.
 
-- I used the same font, font color and included icons again to keep consistancy. The background colour is different to show clearly that it is a different section and to break up the page a little. As mentioned earlier this colour is also taken from the hero image, and contrasts nicely with the white text. It's also not too distracting from the images used here.
-
-
+- I used the same font and color as the secton about as well as included icons again to keep consistancy. The background colour is different to show clearly that it is a different section and to break up the page a little. As mentioned earlier this colour is also taken from the hero image, and contrasts nicely with the white text. It's also not too distracting from the images used here.
 
 ### Sign Up Section
 
@@ -45,19 +42,15 @@ Welcome to my first ever website! For my first ever site I wanted to choose a to
 
 - It took me a while to come to a conclusion on the layout of the form. It must be simple and easy to use to encourage people to sign up. This was a challenge as I had a lot of different options to fit into it. At first I tried making two sets of radio buttons, one for indoor/outdoor and the other for a specifc day and time. This ended up looking cluttered and messy as I had so many inputs, so I decided to make a dropdown menu instead which looked much cleaner. 
 
-![A screenshot of the Sign Up section including the form](./docs/screenshots/signup.jpg)
+- When the form is completed and the Sign Up button pressed the user will be taken to a new page, and a large conformation message shown. This is to alert the user that the booking was successful in a clear and polite manner. This page is very basic, with matching background and text color to rest of the site as well as the logo, navigation bar and footer all present.
 
 ### The Gallery
 
-- The gallery has a range of photos and shows more or less photos per row depending on the screen size, making them easier to see on smaller devises. This page has a dark green background colour in the header instead of the hero image on the home page. This better draws focus to the gallery photos whilst keeping with the colour scheme. The footer is also present on this page to keep the contact details and social media links easily accessible. 
-
-![A screenshot of the gallery including the header and photos](./docs/screenshots/gallery.jpg)
+- The gallery has a range of photos and shows more or less photos per row depending on the screen size, making them easier to view on smaller devises. This page continues the dark green background color to match the header and footer. This better draws focus to the gallery photos whilst keeping with the colour scheme. The footer is present on this page to keep the contact details and social media links easily accessible. 
 
 ### The Footer
 
-- The footer contains the company address and links to its social media pages to make it easy for customers to find the location and any additional information. Each of the social mmedia icons were again taken from Font Awesome and can be clicked. They also underline when hovered in keeping with the navigation bar.
-
-![A screenshot of the footer icluding the address and social media links](./docs/screenshots/footer.jpg)
+- The footer contains the company address and links to its social media pages to make it easy for customers to find the location and any additional information. Each of the social mmedia icons were again taken from Font Awesome and can be clicked. They also invert colors from white to black when hovered in keeping with the Sign Up button, to show that they also take the user to a new page when clicked.
 
 ## Future Features:
 
@@ -69,54 +62,133 @@ Welcome to my first ever website! For my first ever site I wanted to choose a to
 
 ---
 
+## Technologies:
+
+- This site was created using two programming languages: HTML and CSS. I chose these because I have the most knowledge in them and they are well suited to building ans styling simple websites like this one.
+- Github and Gitpod are the platforms where I created this website. For me they are free to use and I enjoy expanding my knowledge of how to use them every day.
+- The site was viewed and tested on differnt screensizes using a simulator that is part of Chrome's dev tools. As a result all screenshots are also taken from this simulator. This was extremely useful as I was able to see what my site would look like on different devises and make it responsive. 
+- Unicorn Revealer is an extension for Chrome which I used to help me see the different elements of my site clearly. It was very useful when working with CSS to style sections as I allowed me to see clearly what affect paddings, margins and borders could have as well as others.
+- [imagecolorpicker.com](https://imagecolorpicker.com/en) is the website I mentioned earilier which I used for choosing the background colours from my hero image. It was very useful as I was able to upload my image by simply dragging it in from my desktop. From there the website would give me a few color options from the image or allow me to pick them myself. Once picked it would display the hex code for that color so I could implement it into my CSS.
+- All of my icons were sourced from [fontawesome.com](https://fontawesome.com/). This website allows you to search for specific icons to then insert into your code and have them appear on your website.
+- A great website which I used to source images from was [pexels.com](https://www.pexels.com/). They have so many images to choose from and all the images are free to use.
+- I decided to use the website [amiresponsive.com](https://ui.dev/amiresponsive) to show my finished site on different devices at the end of the Testing section below.
+
+---
+
 ## Testing: 
 
 ### Test Cases
 
+- The site was viewed and tested on differnt screensizes using a simulator that is part of Chrome's dev tools. As a result all screenshots are also taken from this simulator. 
 - When the user first opens the website the main page is shown, with the logo, navigation menu and hero-image.
-- On lager screen sizes the About heading and paragraphs will also be visible.
 
 Example of desktop screensize:
 
-![Screenshot of website home page](./docs/screenshots/homepage.jpg)
+![Screenshot of website home page](./docs/screenshots/headerdesktop.jpg)
+
+Example of tablet screensize:
+
+![Screenshot of website home page on iPhone XR](./docs/screenshots/headertablet.jpg)
 
 Example of phone screensize:
 
-![Screenshot of website home page on iPhone XR](./docs/screenshots/iphonexr.jpg)
+![Screenshot of website home page on iPhone XR](./docs/screenshots/headerphone.jpg)
 
 - The user should notice that the 'Home' option on the navigation bar is underlined, showing that they are currently viewing this section.
 
 ![Close up screenshot of the nav bar](./docs/screenshots/nav.jpg)
 
+- Just under the header is the About section which provides more information on why customers should ride, and why they should choose us as well as what they need to bring.
+
+Example of desktop screensize:
+
+![Screenshot of the about section on desktop](./docs/screenshots/aboutdesktop.jpg)
+
+Example of tablet screensize:
+
+![Screenshot of the about section on a tablet](./docs/screenshots/abouttablet.jpg)
+
+Example of phone screensize:
+
+![Screenshot of the about section on a phone](./docs/screenshots/aboutphone.jpg)
+
 - The user can either scroll down, or click the 'Rides' option on the navigation bar to see more information on the services offered.
 - Apon hovering the mouse over the navigation bar options the user will see that they underline to make it clear which one they are selecting and show that they are clickable.
 
 Example of desktop screensize:
+
 ![A screenshot of the Rides section](./docs/screenshots/rides.jpg)
 
 Example of tablet screensize:
 
+![Screenshot of the Rides section on a tablet](./docs/screenshots/ridestablet.jpg)
+![Screenshot of the Rides section on a tablet](./docs/screenshots/ridestablet2.jpg)
 
-image.png
+Example of phone screensize:
+
+![Screenshot of the Rides section on a tablet](./docs/screenshots/phonerides.jpg)
+![A screenshot of the Rides section](./docs/screenshots/phonerides2.jpg)
 
 - Clicking the 'Sign-Up' option on the navigation bar, or scrolling down the main page will lead the user to the Sign-up section. Here the booking form can be filled in if the user wants to.
 - Each field is required for the form to be completed and sent.
 
-![A screenshot of the Sign Up section including the form](./docs/screenshots/signup.jpg)
+Example of desktop screensize:
+
+![A screenshot of the Sign Up section on desktop](./docs/screenshots/signupdesktop.jpg)
+
+Example of tablet screensize:
+
+![A screenshot of the Sign Up section on a tablet](./docs/screenshots/signuptablet.jpg)
+
+Example of phone screensize:
+
+![A screenshot of the Sign Up section on a phone](./docs/screenshots/signupphone.jpg)
 
 - To complete the form the user can click the Sign Up button. When hovered this button inverts its colors to black with white text. This shows that is it clickable and makes it stand out.
 - When the form is complete and the Sign Up button clicked, the user will be taken to the conformation page.
-
-![A screenshot of the separate page for the booking conformation message](./docs/screenshots/conformation.jpg)
-
 - They will see the header with the logo and the navigation bar. The 'Sign-up' option will be underlined to show that this is the section being viewed.
 - From this page the user can return to the home page by clicking on the logo. Alternatively they can click 'Home' on the navigation bar.
-- At the bottom of every page is the footer where the user can see the address information and links to the social media pages for the site.
-- When hovered the social media icons which act as clickable links turn from white to black, similar to the Sign Up button. When clicked the pages will open in a new tab.
+
+Example of desktop screensize:
+
+![A screenshot of the conformation page on desktop](./docs/screenshots/conformation.jpg)
+
+Example of tablet screensize:
+
+![A screenshot of the conformation page on a tablet](./docs/screenshots/conformationtablet.jpg)
+
+Example of phone screensize:
+
+![A screenshot of the conformation page on a phone](./docs/screenshots/conformationphone.jpg)
+
 - If the user wishes to see photographs they can visit the Gallery page by clicking 'Gallery' on the navigation bar.
 - When taken to this page the user will be able to see the logo and a navigaion bar as usual. 'Gallery' will be underlined on the navigation bar to show that it is the current page being viewed.
 - To view all the photos the user may scroll down, and to leave the Gallery they can again click on either the logo or 'Home' to return to the home page.
 
+![A screenshot of the gallery on desktop](./docs/screenshots/gallerydesktop.jpg)
+
+Example of tablet screensize:
+
+![A screenshot of the gallery page on a tablet](./docs/screenshots/gallerytablet.jpg)
+
+Example of phone screensize:
+
+![A screenshot of the gallery page on a phone](./docs/screenshots/galleryphone.jpg)
+
+- At the bottom of **every page** is the footer where the user can see the address information and links to the social media pages for the site.
+- When hovered the social media icons which act as clickable links turn from white to black, similar to the Sign Up button. When clicked the pages will open in a new tab.
+
+Example of desktop screensize:
+
+![A screenshot of the footer on desktop](./docs/screenshots/footerdesktop.jpg)
+
+Example of tablet screensize:
+
+![A screenshot of the footer page on a tablet](./docs/screenshots/footertablet.jpg)
+
+Example of phone screensize:
+
+![A screenshot of the footer page on a phone](./docs/screenshots/footerphone.jpg)
 ---
 
 ### Validator Testing
@@ -133,19 +205,9 @@ CSS validation after errors fixed:
 
 ![The W3C Validator showing no errors in my CSS](./docs/screenshots/cssvalidator2.jpg)
 
-- I have tested my site on different screen sizes using Devtools and [amiresponsive.com](https://ui.dev/amiresponsive) to check that it works.
-
-![A screenshot of my finished website appearing on different devices](./docs/screenshots/finished.jpg)
-
 - I have tested my site using the devtools Lighthouse feature. The score is very good with a minimum of 90% in each field.
 
 ![The lighthouse report showing every field is green](./docs/screenshots/lighthouse2.jpg)
-
-- I have filled out the form multiple times to make sure it works and all the fields are required. Apon submitting the form you receive a conformation message on a separate page.
-
-![]()
-
-- I have navigated to different sections and pages using the navigation bar to test that it works.
 
 ---
 
