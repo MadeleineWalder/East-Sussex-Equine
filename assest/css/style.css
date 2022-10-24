@@ -11,6 +11,10 @@ body {
     font-weight: 400;
     color: #F8F9F9;
     background-color: #202916;
+    /* Making the footer stay at the bottom of the page */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 h2 {
@@ -36,7 +40,7 @@ header {
     padding-bottom: 5%;
 }
 
-#logo {
+.logo {
     font-family: "Open Sans", sans-serif;
     color: #F8F9F9;
     float: left;
@@ -45,27 +49,27 @@ header {
     letter-spacing: 4px;
 }
 
-#menu {
+.menu {
     font-size: 140%;
     letter-spacing: 1px;
 }
 
-#menu, #logo {
+.menu, .logo {
     line-height: 75px;
 }
 
-#menu li {
+.menu li {
     float: right;
     list-style-type: none;
     margin-right: 2%;
 }
 
-#menu a {
+.menu a {
     text-decoration: none;
     color: inherit;
 }
 
-#menu a:hover {
+.menu a:hover {
     border-bottom: 2px solid #F8F9F9;
 }
 
@@ -73,14 +77,14 @@ header {
     border-bottom: 2px solid #F8F9F9;
 }
 
-#hero-image {
+.hero-image {
     height: 600px;
     width: 100%;
     clear: both;
     background: url(../images/pexels-helena-lopes.jpg) no-repeat center center;
 }
 
-#about {
+.about {
     height: 100%;
     width: 100%;
     background-color: #3c4027;
@@ -88,7 +92,7 @@ header {
     clear: both;
 }
 
-#left-about {
+.left-about {
     padding-top: 4%;
     width: 33%;
     float: left;
@@ -106,7 +110,7 @@ header {
     text-align: center;
 }
 
-#center-about {
+.center-about {
     padding-top: 4%;
     width: 33%;
     margin: 0 auto;
@@ -123,7 +127,7 @@ header {
     text-align: center;
 }
 
-#right-about {
+.right-about {
     padding-top: 4%;
     width: 33%;
     float: right;
@@ -141,7 +145,7 @@ header {
     text-align: center;
 }
 
-#rides-images {
+.rides-images {
     height: 100%;
     width: 100%;
     background-color: #202916;
@@ -158,7 +162,7 @@ header {
     padding: 3% 14% 3% 0;
 }
 
-#rides-text {
+.rides-text {
     height: 100%;
     width: 100%;
     background-color: #202916;
@@ -184,7 +188,7 @@ header {
     padding: 1% 11.5% 3% 0;
 }
 
-#sign-up {
+.sign-up {
     height: 100%;
     width: 100%;
     padding-bottom: 5%;
@@ -192,14 +196,14 @@ header {
     clear: both;
 }
 
-#sign-up p {
+.sign-up p {
     text-align: center;
     padding-top: 4%;
     font-size: 110%;
     letter-spacing: 1px;
 }
 
-#booking-form {
+.booking-form {
     max-width: 20%;
     margin: 0 auto;
     padding-top: 3%;
@@ -233,42 +237,42 @@ header {
     color: #F8F9F9;
 }
 
+.conformation h2 {
+    padding: 5%;
+}
+
 footer {
     background-color: #202916;
     width: 100%;
+    /* Making the footer stay at the bottom of the page */
+    margin-top: auto;
 }
 
-#contacts {
+.contacts {
     float: left;
     list-style-type: none;
     font-size: 110%;
     padding: 2% 0 1% 2%;
 }
 
-#socials {
+.socials {
     font-size: 220%;
     list-style-type: none;
     padding: 2% 2% 1% 0;
 }
 
-#socials li {
+.socials li {
     float: right;
     list-style-type: none;
     padding-left: 10%;
 }
 
-#socials i {
+.socials i {
     color: #F8F9F9;
 }
 
-#socials i:hover {
+.socials i:hover {
     color: #000000;
-}
-
-#gallery {
-    width: 100%;
-    height: 250px;
-    background-color: #202916;
 }
 
 #photos {
@@ -340,7 +344,7 @@ footer {
 }
 
 @media screen and (max-width: 1840px) {
-
+    
     #indoor-image {
         padding: 3% 0 3% 10%;
     }
@@ -371,19 +375,19 @@ footer {
 /* screen size for Nest Hub Max */
 @media screen and (max-width: 1280px) {
 
-    #logo {
+    .logo {
         font-size: 300%;
     }
 
-    #menu {
+    .menu {
         font-size: 120%;
     }
 
-    #about {
+    .about {
         background-color: #202916;
     }
 
-    #left-about, #right-about, #center-about {
+    .left-about, .right-about, .center-about {
         float: left;
         width: 80%;
         padding-left: 10%;
@@ -394,7 +398,7 @@ footer {
        width: 100%;
     }
 
-    #rides-images {
+    .rides-images {
         padding-top: 8%;
     }
 
@@ -404,8 +408,8 @@ footer {
         padding: 5% 10%;
     }
 
-    #rides-text {
-        padding-bottom: 50%;
+    .rides-text {
+        padding-bottom: 20%;
     }
 
     .indoor-text, .outdoor-text {
@@ -414,7 +418,7 @@ footer {
         padding-left: 10%;
     }
     
-    #booking-form {
+    .booking-form {
         max-width: 40%;
     }
 
@@ -426,7 +430,7 @@ footer {
 /* screen size for iPad Pro */
 @media screen and (max-width: 1024px) {
 
-    #rides-images img {
+    .rides-images img {
         width: 90%;
         padding: 5% 0 0 5%;
     }
@@ -435,11 +439,11 @@ footer {
         padding-bottom: 8%;
     }
     
-    #contacts {
+    .contacts {
         font-size: 130%;
     }
 
-    #socials {
+    .socials {
         font-size: 260%;
     }
 }
@@ -447,11 +451,11 @@ footer {
 /* screen size for Surface Pro 7 */
 @media screen and (max-width: 912px) {
 
-    #logo {
+    .logo {
         font-size: 340%;
     }
 
-    #menu {
+    .menu {
         font-size: 160%;
         clear: both;
     }
@@ -460,11 +464,11 @@ footer {
         column-count: 2;
     }
 
-    #socials {
+    .socials {
         font-size: 250%;
     }
 
-    #contacts {
+    .contacts {
         font-size: 120%;
     }
 }
@@ -472,7 +476,7 @@ footer {
 /* screen size for iPad Air */
 @media screen and (max-width: 820px) {
 
-    #logo {
+    .logo {
         font-size: 320%;
     }
 
@@ -484,11 +488,11 @@ footer {
         column-count: 2;
     }
 
-    #contacts {
+    .contacts {
         font-size: 110%;
     }
 
-    #socials {
+    .socials {
         font-size: 220%;
     }
 }
@@ -496,16 +500,16 @@ footer {
 /* screen size for Surface Duo */
 @media screen and (max-width: 540px) {
 
-    #logo {
+    .logo {
         font-size: 220%;
     }
     
-    #menu {
+    .menu {
         font-size: 140%;
         clear: left;
     }
 
-    #hero-image {
+    .hero-image {
         width: 100%;
     }
 
@@ -513,11 +517,11 @@ footer {
         column-count: 1;
     }
 
-    #contacts {
+    .contacts {
         font-size: 100%;
     }
 
-    #socials {
+    .socials {
         font-size: 180%;
     }
 }
@@ -525,11 +529,11 @@ footer {
 /* screen size for iPhone XR */
 @media screen and (max-width: 414px) {
 
-    #logo {
+    .logo {
         font-size: 200%;
     }
     
-    #menu {
+    .menu {
         font-size: 110%;
     }
 
@@ -542,11 +546,11 @@ footer {
         font-size: 140%;
     }
 
-    #sign-up p {
+    .sign-up p {
         font-size: 100%;
     }
 
-    #booking-form {
+    .booking-form {
         font-size: 90%;
     }
 
@@ -554,11 +558,11 @@ footer {
         column-count: 1;
     }
 
-    #contacts {
+    .contacts {
         font-size: 90%;
     }
 
-    #socials {
+    .socials {
         font-size: 150%;
     }
 }
@@ -566,15 +570,15 @@ footer {
 /* screen size for iPhone 12 Pro */
 @media screen and (max-width: 390px) {
 
-    #logo {
+    .logo {
         font-size: 200%;
     }
 
-    #menu {
+    .menu {
         font-size: 120%;
     }
 
-    #menu li {
+    .menu li {
         margin-right: 8%;
     }
 
@@ -582,11 +586,11 @@ footer {
         column-count: 1;
     }
 
-    #contacts {
+    .contacts {
         font-size: 90%;
     }
 
-    #socials {
+    .socials {
         font-size: 150%;
     }
 }
@@ -594,15 +598,15 @@ footer {
 /* screen size for iPhoneSE */
 @media screen and (max-width: 375px) {
 
-    #logo {
+    .logo {
         font-size: 190%;
     }
 
-    #menu {
+    .menu {
         font-size: 110%;
     }
 
-    #menu li {
+    .menu li {
         margin-right: 8.5%;
     }
 
@@ -614,15 +618,15 @@ footer {
         font-size: 100%;
     }
 
-    #sign-up p {
+    .sign-up p {
         font-size: 90%;
     }
     
-    #contacts {
+    .contacts {
         font-size: 90%;
     }
 
-    #socials {
+    .socials {
         font-size: 150%;
     }
 
@@ -634,11 +638,11 @@ footer {
 /* screen size for Samsung Galaxy S8+ */
 @media screen and (max-width: 360px) {
 
-    #menu li {
+    .menu li {
         margin-right: 8%;
     }
     
-    #socials {
+    .socials {
         font-size: 130%;
     }
 }
