@@ -19,14 +19,16 @@ Welcome to my first ever website! For my first ever site I wanted to choose a to
 
 - **Navigation bar:** Can be clicked on to take the user to different parts of the site. The navigation options underline when you hover over them, and stay underlined to show what page you are on. 
 
-![A close up of the navigation bar](./docs/screenshots/nav.jpg)
+
 
 - **Hero Image:** I decided to use this image as the hero image as I liked the colors and it was very eye-catching yet not too distracting. I knew I wanted the colour scheme of my site to be green with white text, so I actually ended up using a site called [imagecolorpicker.com](https://imagecolorpicker.com/en) to pick specific shades of green from the image, which I then used throughout the site, including the dark green background for the logo and navigation bar. This really helped the site come together as it gave it a feel of consistency and made every section fit together.
+
 ![A screenshot of the header containing the hero image, logo and navigation bar](./docs/screenshots/header.jpg)
 
 ### About Section
 
 - The goal of this section is to answer three main questions users might have when visiting the site for the first time: Why should I try horse riding? Why should I ride here specifically? What equipment to I need to ride? It was important not to have too much information here, as I don't want to overwhelm the user. Instead I stuck to three questions with three very short paragraphs containing the most helpful and condensed information to make it easy to read. I added icons to the questions from [fontawesome.com](https://fontawesome.com/) to help make it more clear what each paragraph was going to be about and draw the users attention.
+
 ![A screenshot of the About section](./docs/screenshots/about.jpg)
 
 ### Rides Section
@@ -34,18 +36,21 @@ Welcome to my first ever website! For my first ever site I wanted to choose a to
 - I knew when beginning to plan my website by drawing out a rough layout that I wanted to enclude two images here. One would go with information about riding indoors and one for riding outdoors. I sourced all of my images for this project from [pexels.com](https://www.pexels.com/) which has thousands of free images to use.
 
 - I used the same font, font color and included icons again to keep consistancy. The background colour is different to show clearly that it is a different section and to break up the page a little. As mentioned earlier this colour is also taken from the hero image, and contrasts nicely with the white text. It's also not too distracting from the images used here.
-![A screenshot of the Rides section](./docs/screenshots/rides.jpg)
+
+
 
 ### Sign Up Section
 
 - This section reverts back to the colour used in the About section, again to keep the consistent look. Here I made a booking form which is fully interactive and functional. Each input box is required before the form can be submitted, the radio buttons work and the submit button inverts its colours when hovered over to make it clear.
 
 - It took me a while to come to a conclusion on the layout of the form. It must be simple and easy to use to encourage people to sign up. This was a challenge as I had a lot of different options to fit into it. At first I tried making two sets of radio buttons, one for indoor/outdoor and the other for a specifc day and time. This ended up looking cluttered and messy as I had so many inputs, so I decided to make a dropdown menu instead which looked much cleaner. 
+
 ![A screenshot of the Sign Up section including the form](./docs/screenshots/signup.jpg)
 
 ### The Gallery
 
 - The gallery has a range of photos and shows more or less photos per row depending on the screen size, making them easier to see on smaller devises. This page has a dark green background colour in the header instead of the hero image on the home page. This better draws focus to the gallery photos whilst keeping with the colour scheme. The footer is also present on this page to keep the contact details and social media links easily accessible. 
+
 ![A screenshot of the gallery including the header and photos](./docs/screenshots/gallery.jpg)
 
 ### The Footer
@@ -66,19 +71,51 @@ Welcome to my first ever website! For my first ever site I wanted to choose a to
 
 ## Testing: 
 
-- I have tested my site on different screen sizes using Devtools and [amiresponsive.com](https://ui.dev/amiresponsive) to check that it works.
+### Test Cases
 
-![A screenshot of my finished website appearing on different devices](./docs/screenshots/finished.jpg)
+- When the user first opens the website the main page is shown, with the logo, navigation menu and hero-image.
+- On lager screen sizes the About heading and paragraphs will also be visible.
 
-- I have tested my site using the devtools Lighthouse feature. The score is very good with a minimum of 90% in each field.
+Example of desktop screensize:
 
-![The lighthouse report showing every field is green](./docs/screenshots/lighthouse2.jpg)
+![Screenshot of website home page](./docs/screenshots/homepage.jpg)
 
-- I have filled out the form multiple times to make sure it works and all the fields are required. Apon submitting the form you receive a conformation message on a separate page.
+Example of phone screensize:
 
-![]()
+![Screenshot of website home page on iPhone XR](./docs/screenshots/iphonexr.jpg)
 
-- I have navigated to different sections and pages using the navigation bar to test that it works.
+- The user should notice that the 'Home' option on the navigation bar is underlined, showing that they are currently viewing this section.
+
+![Close up screenshot of the nav bar](./docs/screenshots/nav.jpg)
+
+- The user can either scroll down, or click the 'Rides' option on the navigation bar to see more information on the services offered.
+- Apon hovering the mouse over the navigation bar options the user will see that they underline to make it clear which one they are selecting and show that they are clickable.
+
+Example of desktop screensize:
+![A screenshot of the Rides section](./docs/screenshots/rides.jpg)
+
+Example of tablet screensize:
+
+
+image.png
+
+- Clicking the 'Sign-Up' option on the navigation bar, or scrolling down the main page will lead the user to the Sign-up section. Here the booking form can be filled in if the user wants to.
+- Each field is required for the form to be completed and sent.
+
+![A screenshot of the Sign Up section including the form](./docs/screenshots/signup.jpg)
+
+- To complete the form the user can click the Sign Up button. When hovered this button inverts its colors to black with white text. This shows that is it clickable and makes it stand out.
+- When the form is complete and the Sign Up button clicked, the user will be taken to the conformation page.
+
+![A screenshot of the separate page for the booking conformation message](./docs/screenshots/conformation.jpg)
+
+- They will see the header with the logo and the navigation bar. The 'Sign-up' option will be underlined to show that this is the section being viewed.
+- From this page the user can return to the home page by clicking on the logo. Alternatively they can click 'Home' on the navigation bar.
+- At the bottom of every page is the footer where the user can see the address information and links to the social media pages for the site.
+- When hovered the social media icons which act as clickable links turn from white to black, similar to the Sign Up button. When clicked the pages will open in a new tab.
+- If the user wishes to see photographs they can visit the Gallery page by clicking 'Gallery' on the navigation bar.
+- When taken to this page the user will be able to see the logo and a navigaion bar as usual. 'Gallery' will be underlined on the navigation bar to show that it is the current page being viewed.
+- To view all the photos the user may scroll down, and to leave the Gallery they can again click on either the logo or 'Home' to return to the home page.
 
 ---
 
@@ -95,6 +132,20 @@ HTML validation after errors fixed:
 CSS validation after errors fixed:
 
 ![The W3C Validator showing no errors in my CSS](./docs/screenshots/cssvalidator2.jpg)
+
+- I have tested my site on different screen sizes using Devtools and [amiresponsive.com](https://ui.dev/amiresponsive) to check that it works.
+
+![A screenshot of my finished website appearing on different devices](./docs/screenshots/finished.jpg)
+
+- I have tested my site using the devtools Lighthouse feature. The score is very good with a minimum of 90% in each field.
+
+![The lighthouse report showing every field is green](./docs/screenshots/lighthouse2.jpg)
+
+- I have filled out the form multiple times to make sure it works and all the fields are required. Apon submitting the form you receive a conformation message on a separate page.
+
+![]()
+
+- I have navigated to different sections and pages using the navigation bar to test that it works.
 
 ---
 
