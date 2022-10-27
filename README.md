@@ -10,11 +10,22 @@ Welcome to my first ever website! For my first ever site I wanted to choose a to
 
 ---
 
+## User Expectations
+
+### Expectations that this site meets:
+- As a user I would like to learn more information about horse riding
+- As a user I would like to see photographs of the horses and the environment in which they are ridden
+- As a user I would like to be able to sign up for a ride
+
+---
+
 ## Existing Features:
 
-### Color Scheme
+### Design Features
 
-- I decided to use a color scheme of green and white to match the color of country side and nature around the location where the stables would be based. Green fields are a common location for horses and white stands out well against it making for a calming and natural look.
+- **Color Scheme:** I decided to use a color scheme of green and white to match the color of country side and nature around the location where the riding school would be based. Green fields are a common location for horses and white stands out well against it making for a calming and natural look. I considered using blue to represent the blue sky but it doesn't contrast well enough with green.
+
+- **Font:** I used the fonts 'Open Sans' and 'Noto Sans Japanese' as they compliment each other well with their different weights. As horse riding is an activity for children as well, I kept the fonts fairly simple and bold. I used a heaveir weight for the logo so it would stand out. I kept the paragraphs in the same lighter weight and style, and the h2 elements in the same font with a slightly heavier weight so they would all be easy to distinguish.
 
 ### The Header
 
@@ -64,22 +75,27 @@ Welcome to my first ever website! For my first ever site I wanted to choose a to
 
 ## Technologies:
 
-- This site was created using two programming languages: HTML and CSS. I chose these because I have the most knowledge in them and they are well suited to building ans styling simple websites like this one.
-- Github and Gitpod are the platforms where I created this website. For me they are free to use and I enjoy expanding my knowledge of how to use them every day.
-- The site was viewed and tested on differnt screensizes using a simulator that is part of Chrome's dev tools. As a result all screenshots are also taken from this simulator. This was extremely useful as I was able to see what my site would look like on different devises and make it responsive. 
-- Unicorn Revealer is an extension for Chrome which I used to help me see the different elements of my site clearly. It was very useful when working with CSS to style sections as I allowed me to see clearly what affect paddings, margins and borders could have as well as others.
-- [imagecolorpicker.com](https://imagecolorpicker.com/en) is the website I mentioned earilier which I used for choosing the background colours from my hero image. It was very useful as I was able to upload my image by simply dragging it in from my desktop. From there the website would give me a few color options from the image or allow me to pick them myself. Once picked it would display the hex code for that color so I could implement it into my CSS.
-- All of my icons were sourced from [fontawesome.com](https://fontawesome.com/). This website allows you to search for specific icons to then insert into your code and have them appear on your website.
-- A great website which I used to source images from was [pexels.com](https://www.pexels.com/). They have so many images to choose from and all the images are free to use.
+- This site was created using two programming languages: HTML and CSS.
+- Github and Gitpod are the platforms where I created this website. Github (and Gihub pages) for creating and storing my repositories and Gitpod for writing the code. 
+- Unicorn Revealer is an extension for Chrome which I used to help me see the different elements of my site clearly.
+- [imagecolorpicker.com](https://imagecolorpicker.com/en) is the website I mentioned earilier which I used for choosing the background colours from my hero image.
+- [fontawesome.com](https://fontawesome.com/) is the website where I sourced all my icons.
+- [pexels.com](https://www.pexels.com/) is the website I used to source all the images.
 - I decided to use the website [amiresponsive.com](https://ui.dev/amiresponsive) to show my finished site on different devices at the end of the Testing section below.
 
 ---
 
 ## Testing: 
 
-### Test Cases
+### Supported Screens and Browsers:
 
-- The site was viewed and tested on differnt screensizes using a simulator that is part of Chrome's dev tools. As a result all screenshots are also taken from this simulator. 
+- The site was viewed and tested on Google Chrome
+- Differnt screen sizes were tested using a simulator that is part of Chrome's dev tools
+- As a result all screenshots of different screen sizes are also taken from this simulator
+- Supported screen sizes are: Moto G4, iPhone 4, 6, 7, 8, X, XR and 12 Pro, Pixel 5, Samsung Galaxy S8+, S20 Ultra and A51/71, iPad, iPad Air, Mini and Pro, Surface Pro 7, Surface Duo, Nest Hub and Nest Hub Max.
+
+### Test Cases
+ 
 - When the user first opens the website the main page is shown, with the logo, navigation menu and hero-image.
 
 Example of desktop screensize:
