@@ -534,9 +534,9 @@ footer {
 
 /* screen size for Samsung Galaxy S8+ */
 @media screen and (max-width: 360px) {
-
+    
     .menu li {
-        margin-right: 8%;
+        margin-right: 5%;
     }
 
     .left-about-text, .right-about-text, .center-about-text {
@@ -549,5 +549,17 @@ footer {
 
     .socials {
         font-size: 130%;
+    }
+}
+
+/* screen size for Samsung Galaxy Fold */
+@media screen and (max-width: 280px) {
+
+    .menu {
+        font-size: 105%;
+    }
+
+    .menu li {
+        margin-right: 4%;
     }
 }
