@@ -138,7 +138,6 @@ Example of desktop screensize:
 Example of tablet screensize:
 
 ![Screenshot of the Rides section on a tablet](./docs/screenshots/ridestablet.jpg)
-![Screenshot of the Rides section on a tablet](./docs/screenshots/ridestablet2.jpg)
 
 Example of phone screensize:
 
@@ -163,23 +162,23 @@ Example of phone screensize:
 - To complete the form the user can click the Sign Up button. When hovered this button inverts its colors to black with white text. This shows that is it clickable and makes it stand out.
 - When the form is complete and the Sign Up button clicked, the user will be taken to the conformation page.
 - They will see the header with the logo and the navigation bar. The 'Sign-up' option will be underlined to show that this is the section being viewed.
-- From this page the user can return to the home page by clicking on the logo. Alternatively they can click 'Home' on the navigation bar.
+- From this page the user can return to the main page by clicking on the logo. Alternatively they can use navigation bar as on the main page to navigate around.
 
 Example of desktop screensize:
 
-![A screenshot of the conformation page on desktop](./docs/screenshots/conformation.jpg)
+![A screenshot of the conformation page on desktop](./docs/screenshots/confirmation.jpg)
 
 Example of tablet screensize:
 
-![A screenshot of the conformation page on a tablet](./docs/screenshots/conformationtablet.jpg)
+![A screenshot of the conformation page on a tablet](./docs/screenshots/confirmationtablet.jpg)
 
 Example of phone screensize:
 
-![A screenshot of the conformation page on a phone](./docs/screenshots/conformationphone.jpg)
+![A screenshot of the conformation page on a phone](./docs/screenshots/confirmationphone.jpg)
 
 - If the user wishes to see photographs they can visit the Gallery page by clicking 'Gallery' on the navigation bar.
 - When taken to this page the user will be able to see the logo and a navigaion bar as usual. 'Gallery' will be underlined on the navigation bar to show that it is the current page being viewed.
-- To view all the photos the user may scroll down, and to leave the Gallery they can again click on either the logo or 'Home' to return to the home page.
+- To view all the photos the user may scroll down. Again users have the ability to click on the logo to return to the main page if they wish or navigate using the navigation bar which is also present here.
 
 ![A screenshot of the gallery on desktop](./docs/screenshots/gallerydesktop.jpg)
 
@@ -266,3 +265,4 @@ https://madeleinewalder.github.io/East-Sussex-Equine/
 ## Credits:
 
 - [seancdavis.com](https://www.seancdavis.com/posts/three-ways-to-add-image-to-github-readme/) -This website by Sean Davis had an extremely useful tutorial showing different ways to add an image to a read me file on Github. It was very helpful as I couldn't figure out why my images weren't displaying. He explained that you need an '!' in front of the square brackets to add an image instead of just a link. This was why my images weren't visible.
+- I also used [css-tricks.com](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) and [w3schools.com](https://www.w3schools.com/css/css3_flexbox.asp). Both had very good tutorials on how to code with flexbox. Whilst I already knew how to write the HTML side these tutorials helped me understand the different flex rules you can apply in CSS, such as flex-wrap: wrap; which I did use in my own work.
