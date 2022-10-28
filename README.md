@@ -39,7 +39,6 @@ Welcome to my first ever website! For my first ever site I wanted to choose a to
 
 - The goal of this section is to answer three main questions users might have when visiting the site for the first time: Why should I try horse riding? Why should I ride here specifically? What equipment do I need to ride? It was important not to have too much information here, as I don't want to overwhelm the user. Instead I stuck to three questions with three very short paragraphs containing the most helpful and condensed information to make it easy to read and informative. 
 - I added icons to the questions from [fontawesome.com](https://fontawesome.com/) to help make it more clear what each paragraph was going to be about and draw the users attention.
-- On smaller screen sizes such as phones the background color actually changes to match the next section under it, as I found it looked too messy and blocky with multiple different background colors on a smaller screen. It helps the flow of the page.
 
 ### Rides Section
 
