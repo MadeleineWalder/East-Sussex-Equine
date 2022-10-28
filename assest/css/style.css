@@ -40,7 +40,7 @@ h3 {
 }
 
 header {
-    padding-bottom: 5%;
+    padding-bottom: 2%;
 }
 
 /* Styling the logo and making it sit nicely in the top left */
@@ -82,12 +82,16 @@ header {
     border-bottom: 2px solid #F8F9F9;
 }
 
-/* Adding the hero image */
+/* Styling a flexbox for the hero image */
 .hero-image {
-    height: 600px;
+    display: flex;
     width: 100%;
-    clear: both;
-    background: url(../images/pexels-helena-lopes.jpg) no-repeat center center;
+}
+
+#hero-image {
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
 }
 
 /* Styling for the about section elements to be an appropriate size and color */
