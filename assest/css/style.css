@@ -162,6 +162,28 @@ header {
     padding: 3% 14% 3% 0;
 }
 
+.flex-container {
+    display: flex;
+    background-color: pink;
+}
+
+.flex-container > div {
+    background-color: aqua;
+    margin: 5%;
+    font-size: 115%;
+    text-align: center;
+}
+
+.flex-container-0 {
+    display: flex;
+    background-color: red;
+}
+
+.flex-container-0 > div {
+    background-color: white;
+    margin: 5%
+}
+
 .rides-text {
     height: 100%;
     width: 100%;
@@ -461,6 +483,14 @@ footer {
     .menu {
         font-size: 160%;
         clear: both;
+    }
+
+    .flex-container {
+        flex-direction: column;
+    }
+
+    .flex-container-0 {
+        flex-direction: column;
     }
 
     #photos {
