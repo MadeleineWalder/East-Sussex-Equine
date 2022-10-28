@@ -4,7 +4,7 @@ Welcome to my first ever website! For my first ever site I wanted to choose a to
 
 ### Link to deployed site: https://madeleinewalder.github.io/East-Sussex-Equine/ 
 
-![A screenshot of my finished website appearing on different devices](./docs/screenshots/amiresponsive.jpg)
+![A screenshot of my finished website appearing on different devices](./docs/screenshots/amiresponsive1.jpg)
 
 [Photo taken using amiresponsive.com](https://ui.dev/amiresponsive)
 
