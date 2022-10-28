@@ -164,50 +164,28 @@ header {
 
 .flex-container {
     display: flex;
-    background-color: pink;
 }
 
 .flex-container > div {
-    background-color: aqua;
-    margin: 5%;
+    margin: 0 5% 5% 5%;
     font-size: 115%;
     text-align: center;
 }
 
 .flex-container-0 {
     display: flex;
-    background-color: red;
-}
-
-.flex-container-0 > div {
-    background-color: white;
-    margin: 5%
-}
-
-.rides-text {
-    height: 100%;
     width: 100%;
-    background-color: #202916;
-    padding-bottom: 5%;
-    clear: both;
+    flex-wrap: wrap;
 }
 
-.indoor-text {
-    float: left;
-    font-size: 115%;
-    width: 30%;
-    text-align: center;
-    line-height: 160%;
-    padding: 1% 0 3% 11.5%;
+.flex-container-0 > * {
+    margin: 8%;
+    justify-content: center;
+    flex: 1;
 }
 
-.outdoor-text {
-    float: right;
-    font-size: 115%;
-    width: 30%;
-    text-align: center;
-    line-height: 160%;
-    padding: 1% 11.5% 3% 0;
+img {
+    width: 100%;
 }
 
 .sign-up {
