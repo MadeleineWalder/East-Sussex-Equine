@@ -1,22 +1,25 @@
+/* Imported fonts from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&family=Open+Sans&display=swap');
 
+/* Setting these style rule to 0 so I can add them to specific elements later on */
 *{
     margin: 0;
     padding: 0;
     border: none;
 }
 
+/* Style for body font and background. Making the footer stays at the bottom of the page */
 body {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     color: #F8F9F9;
     background-color: #202916;
-    /* Making the footer stay at the bottom of the page */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
+/* Styling the headings */
 h2 {
     font-family: "Noto Sans Japanese", sans-serif;
     font-size: 190%;
@@ -40,6 +43,7 @@ header {
     padding-bottom: 5%;
 }
 
+/* Styling the logo and making it sit nicely in the top left */
 .logo {
     font-family: "Open Sans", sans-serif;
     color: #F8F9F9;
@@ -49,6 +53,7 @@ header {
     letter-spacing: 4px;
 }
 
+/* Style for the nav bar font, color and hover*/
 .menu {
     font-size: 140%;
     letter-spacing: 1px;
@@ -77,6 +82,7 @@ header {
     border-bottom: 2px solid #F8F9F9;
 }
 
+/* Adding the hero image */
 .hero-image {
     height: 600px;
     width: 100%;
@@ -84,6 +90,7 @@ header {
     background: url(../images/pexels-helena-lopes.jpg) no-repeat center center;
 }
 
+/* Styling for the about section elements to be an appropriate size and color */
 .about {
     height: 100%;
     width: 100%;
@@ -145,7 +152,7 @@ header {
     text-align: center;
 }
 
-/* Style for the 'Rides' and flex containers to keep elements responsive to screen size */
+/* Style for the 'Rides' using flex containers to keep elements responsive to screen size */
 
 .flex-container-0 {
     display: flex;
@@ -264,6 +271,7 @@ footer {
     color: #000000;
 }
 
+/* Photo styling for gallery.html, making sure they are easily visible */
 #photos {
     clear: both;
     line-height: 0;
@@ -276,6 +284,8 @@ footer {
 #photos > img {
     width: 100%;
 }
+
+/* Media Queries */
 
 /* screen size for Nest Hub Max */
 @media screen and (max-width: 1280px) {
