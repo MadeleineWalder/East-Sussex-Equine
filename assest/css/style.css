@@ -349,7 +349,7 @@ footer {
     }
 
     .flex-container > div {
-        margin: 3% 5% 5% 5%;
+        margin: 6% 5% 5%;
         font-size: 110%;
     }
 
@@ -371,6 +371,10 @@ footer {
 
     .logo {
         font-size: 320%;
+    }
+
+    .flex-container > div {
+        margin: 3% 5% 5%;
     }
 
     #photos {
