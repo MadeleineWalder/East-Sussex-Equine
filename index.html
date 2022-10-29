@@ -14,6 +14,7 @@
     <script src="https://kit.fontawesome.com/b181badfaf.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!-- Logo, nav bar and hero-image -->
     <header>
         <a href="index.html">
             <h1 class="logo">East Sussex Equine</h1>
@@ -38,6 +39,7 @@
     <div class="hero-image">
         <img src="./assest/images/pexels-helena-lopes.jpg" id="hero-image" alt="A group of four horses standing together, looking at the camera whilst the sun is setting">
     </div>
+    <!-- Furture feature: make these divs into flexboxes for easier alignment. (I didn't know what flexbox was when I coded this section.) -->
     <section class="about">
         <h2>About</h2>
         <div class="left-about">
@@ -80,7 +82,8 @@
     <a id="rides">
         <h2>Rides</h2>
     </a>
-    <div class="flex-container-0">
+    <!-- Flexbox container to align images and have them be responsive to screen size-->
+    <div class="img-container">
         <div>
             <img src="./assest/images/pexels-gustavo-fring-4895015.jpg" alt="A girl and her horse pose for a photo in an indoor arena">
         </div>
@@ -88,7 +91,8 @@
             <img src="./assest/images/pexels-anna-kester-10376090-1.jpg" alt="A group of people ride horses through the countryside">
         </div>
     </div>
-    <div class="flex-container">
+    <!-- Flexbox container to align text with corresponding image and have it be responsive to screen size-->
+    <div class="rides-container">
         <div>
             <h3>
                 Indoor <i class="fa-solid fa-house"></i>
@@ -114,6 +118,7 @@
         <a id="sign_up">
             <h2>Sign Up</h2>
         </a>
+        <!-- Form for customers to sign up -->
         <p>Sign up to help garantee your spot! Payment is taken apon arrival.</p>
         <form action="confirmation.html" method="GET" class="booking-form">
             <label for="fname">First Name:</label>
@@ -135,7 +140,7 @@
             <!-- dropdown menu -->
             <label for="time">Choose a session:</label>
             <input list="date-and-time" id="time" name="time" type="text" class="input-box" required>
-
+            <!-- Data list -->
             <datalist id="date-and-time">
                 <option value="Wednesday 16:00"></option>
                 <option value="Thursday 17:00"></option>
@@ -147,6 +152,7 @@
             <input type="submit" class="submit-button" value="Sign Up">
         </form>
     </section>
+    <!-- Address and social medias -->
     <footer>
         <ul class="contacts">
             <li>

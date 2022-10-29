@@ -157,13 +157,13 @@ header {
 
 /* Style for the 'Rides' using flex containers to keep elements responsive to screen size */
 
-.flex-container-0 {
+.img-container {
     display: flex;
     width: 100%;
     flex-wrap: wrap;
 }
 
-.flex-container-0 > * {
+.img-container > * {
     margin: 6% 8% 3%;
     justify-content: center;
     flex: 1;
@@ -173,11 +173,11 @@ img {
     width: 100%;
 }
 
-.flex-container {
+.rides-container {
     display: flex;
 }
 
-.flex-container > div {
+.rides-container > div {
     margin: 0 5% 5% 5%;
     font-size: 115%;
     line-height: 190%;
@@ -301,8 +301,6 @@ footer {
         font-size: 120%;
     }
 
-    
-
     .left-about, .right-about, .center-about {
         float: left;
         width: 80%;
@@ -321,6 +319,11 @@ footer {
 
     #photos {
         column-count: 2;
+    }
+
+    .thankyou {
+        font-size: 150%;
+        padding-top: 10%;
     }
 }
 
@@ -352,15 +355,15 @@ footer {
         clear: both;
     }
 
-    .flex-container-0 {
+    .img-container {
         flex-direction: column;
     }
 
-    .flex-container {
+    .rides-container {
         flex-direction: column;
     }
 
-    .flex-container > div {
+    .rides-container > div {
         margin: 6% 5% 5%;
         font-size: 110%;
     }
@@ -385,7 +388,7 @@ footer {
         font-size: 320%;
     }
 
-    .flex-container > div {
+    .rides-container > div {
         margin: 3% 5% 5%;
     }
 
@@ -416,6 +419,10 @@ footer {
 
     #photos {
         column-count: 1;
+    }
+
+    .thankyou {
+        font-size: 130%;
     }
 
     .contacts {
@@ -457,6 +464,10 @@ footer {
 
     #photos {
         column-count: 1;
+    }
+
+    .thankyou {
+        font-size: 110%;
     }
 
     .contacts {
@@ -543,7 +554,7 @@ footer {
         font-size: 80%;
     }
 
-    .flex-container {
+    .rides-container {
         font-size: 80%;
     }
 
@@ -561,5 +572,9 @@ footer {
 
     .menu li {
         margin-right: 4%;
+    }
+
+    .thankyou {
+        font-size: 100%;
     }
 }
